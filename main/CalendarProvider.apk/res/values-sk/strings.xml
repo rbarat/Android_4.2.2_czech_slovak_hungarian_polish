@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="calendar_storage">Úložisko Kalendára</string>
+    <string name="upgrade_msg">Probieha aktualizácia databázy Kalendára.</string>
+    <string name="calendar_default_name">Predvolené</string>
+    <string name="calendar_info">Informácie o kalendári</string>
+    <string name="calendar_info_error">Chyba</string>
+    <string name="calendar_info_no_calendars">Žiadne kalendáre</string>
+    <string name="calendar_info_events">Udalosti: %1$d</string>
+    <string name="calendar_info_events_dirty">Udalosti: %1$d, neuložené: %2$d</string>
+    <string name="provider_label">Kalendár</string>
+    <string name="debug_tool_delete_button">Zmazať</string>
+    <string name="debug_tool_start_button">Spustiť</string>
+    <string name="debug_tool_message">Na SD karte/USB úložisku idete vytvoriť kópiu databázy kalendára, která bude čitateľná pomocou ľubovoľnej aplikácie a poslať ju e-mailom. Po úspěšném skopírování zo zariadenia alebo prijatí e-mailu ju nezabudnite ihneď zmazať.</string>
+    <string name="debug_tool_email_sender_picker">Vyberte program pre odoslenie súboru</string>
+    <string name="debug_tool_email_subject">Je pripojená databáza Kalendára</string>
+    <string name="debug_tool_email_body">Je pripojená databáza Kalendára so všetkými mojimi schôdzkami a osobnými informáciami. Zaobchádzajte s ňou prosím opatrne.</string>
+</resources>

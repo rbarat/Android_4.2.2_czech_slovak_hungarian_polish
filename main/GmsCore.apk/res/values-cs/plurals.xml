@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d den</item>
+    </plurals>
+    <plurals name="games_select_players_current_count_format">
+        <item quantity="other">Celkem hráčů: %1$d</item>
+        <item quantity="one">Hráči</item>
+    </plurals>
+    <plurals name="games_select_players_slots_remaining_format">
+        <item quantity="other">Můžete pozvat ještě %1$d</item>
+        <item quantity="one">Můžete pozvat ještě %1$d</item>
+    </plurals>
+    <plurals name="games_notification_new_match_activity">
+        <item quantity="other">Nové pozvánky na hry: %1$d</item>
+        <item quantity="one">%1$d nová pozvánka na hru</item>
+    </plurals>
+    <plurals name="games_notification_new_player_text">
+        <item quantity="other">Podívejte se na pozvánky</item>
+        <item quantity="one">Podívejte se na pozvánku</item>
+    </plurals>
+    <plurals name="games_leaderboard_player_count_format">
+        <item quantity="other">Celkem hráčů: %1$s</item>
+        <item quantity="one">%1$s hráč</item>
+    </plurals>
+</resources>

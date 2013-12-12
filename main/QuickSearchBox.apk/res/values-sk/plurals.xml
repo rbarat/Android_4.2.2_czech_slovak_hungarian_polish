@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="duration_in_hours">
+        <item quantity="other">%1$d hod.</item>
+        <item quantity="one">1 hod.</item>
+    </plurals>
+    <plurals name="duration_in_hours_short">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">1 hodina</item>
+    </plurals>
+    <plurals name="duration_in_minutes">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_in_minutes_short">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_in_days_short">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">1 deň</item>
+    </plurals>
+    <plurals name="items_from">
+        <item quantity="other">Položky (celkom %1$d) z:</item>
+        <item quantity="one">1 položka z:</item>
+    </plurals>
+    <plurals name="last_train_home_departure_time">
+        <item quantity="other">Posledný vlak domov odchádza o %2$s%1$d min.%3$s</item>
+        <item quantity="one">Posledný vlak domov odchádza o %2$s1 minútu%3$s</item>
+    </plurals>
+    <plurals name="last_train_home_departure_time_abbrev">
+        <item quantity="other">Posledný vlak domov odchádza o %1$d min</item>
+        <item quantity="one">Posledný vlak domov odchádza o 1 min</item>
+    </plurals>
+    <plurals name="minutes_delay">
+        <item quantity="other">meškanie: %d min.</item>
+        <item quantity="zero">bez meškania</item>
+        <item quantity="one">meškanie: %d min.</item>
+        <item quantity="two">meškanie: %d min.</item>
+        <item quantity="few">meškanie: %d min.</item>
+        <item quantity="many">meškanie: %d min.</item>
+    </plurals>
+    <plurals name="minutes_delay_more_than_usual">
+        <item quantity="other">%d min. viac ako obvykle</item>
+        <item quantity="zero">bez meškania</item>
+        <item quantity="one">%d min. viac ako obvykle</item>
+        <item quantity="two">%d min. viac ako obvykle</item>
+        <item quantity="few">%d min. viac ako obvykle</item>
+        <item quantity="many">%d min. viac ako obvykle</item>
+    </plurals>
+    <plurals name="minutes_delay_less_than_usual">
+        <item quantity="other">%d min. menej ako obvykle</item>
+        <item quantity="zero">bez meškania</item>
+        <item quantity="one">%d min. menej ako obvykle</item>
+        <item quantity="two">%d min. menej ako obvykle</item>
+        <item quantity="few">%d min. menej ako obvykle</item>
+        <item quantity="many">%d min. menej ako obvykle</item>
+    </plurals>
+    <plurals name="usual_traffic_minutes_delay">
+        <item quantity="other">Bežná premávka: %d-min. mešk.</item>
+        <item quantity="zero">Bežná premávka: bez meškania</item>
+        <item quantity="one">Bežná premávka: %d-min. mešk.</item>
+        <item quantity="two">Bežná premávka: %d-min. mešk.</item>
+        <item quantity="few">Bežná premávka: %d-min. mešk.</item>
+        <item quantity="many">Bežná premávka: %d-min. mešk.</item>
+    </plurals>
+    <plurals name="card_count">
+        <item quantity="other">Kariet: %d</item>
+        <item quantity="zero">Žiadne karty</item>
+        <item quantity="one">%d karta</item>
+        <item quantity="two">%d karty</item>
+        <item quantity="few">%d karty</item>
+        <item quantity="many">%d kariet</item>
+    </plurals>
+    <plurals name="num_reviews">
+        <item quantity="other">Počet recenzií: %1$d</item>
+        <item quantity="zero">0 recenzií</item>
+        <item quantity="one">1 recenzia</item>
+    </plurals>
+    <plurals name="miles">
+        <item quantity="other">&amp;lt;font face=sans-serif>%d&amp;lt;/font> mi</item>
+        <item quantity="one">&amp;lt;font face=sans-serif>1&amp;lt;/font> mi</item>
+    </plurals>
+    <plurals name="kilometers">
+        <item quantity="other">&amp;lt;font face=sans-serif>%d&amp;lt;/font> km</item>
+        <item quantity="one">&amp;lt;font face=sans-serif>1&amp;lt;/font> km</item>
+    </plurals>
+    <plurals name="stock_card_feedback_question_plural">
+        <item quantity="other">Chcete sledovať tieto akcie?</item>
+        <item quantity="one">Chcete sledovať túto akciu?</item>
+    </plurals>
+    <plurals name="suggestions_feedback_question_plural">
+        <item quantity="other">Sú tieto návrhy užitočné?</item>
+        <item quantity="one">Je tento návrh užitočný?</item>
+    </plurals>
+    <plurals name="sports_card_feedback_question_plural">
+        <item quantity="other">Chcete sledovať tieto športové tímy?</item>
+        <item quantity="one">Chcete sledovať tento športový tím?</item>
+    </plurals>
+    <plurals name="reminders">
+        <item quantity="other">Počet pripomienok: %1$d</item>
+        <item quantity="one">1 pripomienka</item>
+    </plurals>
+    <plurals name="deleted">
+        <item quantity="other">Počet odstránených položiek: %1$d</item>
+    </plurals>
+    <plurals name="relevant_website_question_plural">
+        <item quantity="other">Sú tieto webové stránky užitočné?</item>
+        <item quantity="one">Sú tieto stránky užitočné?</item>
+    </plurals>
+    <plurals name="website_update_question_plural">
+        <item quantity="other">Sú novinky z týchto zdrojov užitočné?</item>
+        <item quantity="one">Sú novinky z tohto zdroja užitočné?</item>
+    </plurals>
+    <plurals name="expiring_duration_in_days">
+        <item quantity="other">Vyprší o %1$d d.</item>
+        <item quantity="one">Vyprší o 1 deň</item>
+    </plurals>
+    <plurals name="expiring_duration_in_hours">
+        <item quantity="other">Vyprší o %1$d hod.</item>
+        <item quantity="one">Vyprší o 1 hodinu</item>
+    </plurals>
+    <plurals name="expiring_duration_in_minutes">
+        <item quantity="other">Vyprší o %1$d min.</item>
+        <item quantity="one">Vyprší o 1 minútu</item>
+    </plurals>
+    <plurals name="calendar_event_meeting_summary_with_attendees">
+        <item quantity="other">&lt;xliff id="subject" example="Meeting">%1$s&lt;/xliff> (&lt;xliff id="attendee_list" example="Paul, Peter, Jane, Hertha">%2$s&lt;/xliff>)</item>
+        <item quantity="one">&lt;xliff id="subject" example="Meeting">%1$s&lt;/xliff> s &lt;xliff id="attendee_list" example="Hertha">%2$s&lt;/xliff></item>
+    </plurals>
+    <plurals name="query_calendar_number_of_events">
+        <item quantity="other">Počet udalostí: %d</item>
+        <item quantity="one">Jedna udalosť</item>
+    </plurals>
+</resources>

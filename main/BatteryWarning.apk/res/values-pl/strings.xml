@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="batteryWarning_label">Ostrzeżenia baterii</string>
+    <string name="title_charger_over_voltage">Ładowanie większym napięciem</string>
+    <string name="title_battery_over_temperature">Przegrzanie baterii</string>
+    <string name="title_over_current_protection">Przekroczone zabezpieczenie prądowe</string>
+    <string name="title_battery_over_voltage">Przekroczone napięcie baterii</string>
+    <string name="title_safety_timer_timeout">Przekroczony czas ładowania</string>
+    <string name="msg_charger_over_voltage">Twoja ładowarka ma za duże napięcie, odłącz ją!</string>
+    <string name="msg_battery_over_temperature">Twoja bateria jest przegrzana, wyciągnij baterię!</string>
+    <string name="msg_over_current_protection">Twopja bateria przekroczyła zabezpieczenie prądowe, wyciągnij baterię!</string>
+    <string name="msg_battery_over_voltage">Twoja bateria ma przekroczne napięcie, wyciągnij baterię!</string>
+    <string name="msg_safety_timer_timeout">Czas ładowania zbyt długi, odłącz ładowarkę!</string>
+    <string name="btn_ok_msg">Uśpij</string>
+    <string name="btn_cancel_msg">Pomiń</string>
+</resources>

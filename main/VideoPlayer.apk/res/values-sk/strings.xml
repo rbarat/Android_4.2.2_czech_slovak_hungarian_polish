@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="video_app_name">Prehrávač videa</string>
+    <string name="scanning">Vyhľadávanie SD karty...</string>
+    <string name="sdcard_missing_message">Vo vašom telefóne nie je vložená žiadna SD karta.</string>
+    <string name="video_list_empty">Žiadne videá.</string>
+    <string name="detail_title">Názov: %1$s</string>
+    <string name="detail_date_taken">Zhotovené: %1$s</string>
+    <string name="detail_path">Umiestenie: %1$s</string>
+    <string name="detail_filesize">Veľkosť súboru: %1$s</string>
+    <string name="detail_duration">Čas trvania: %1$s</string>
+    <string name="media_detail">Podrobnosti</string>
+    <string name="delete">Zmazať</string>
+    <string name="delete_tip">Odstrániť %1$s alebo nie?</string>
+    <string name="delete_progress">Odstraňovanie %1$s ...</string>
+</resources>

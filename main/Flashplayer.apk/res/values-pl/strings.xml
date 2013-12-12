@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="flash_player_desc">Adobe Flash Player</string>
+    <string name="audio_files">Pliki dźwiękowe</string>
+    <string name="image_files">Pliki obrazów</string>
+    <string name="video_files">Pliki wideo</string>
+    <string name="empty_file_list">Nie znaleziono żadnych plików.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="file_save_as">Zapisz jako:</string>
+    <string name="file_download">Pobierz</string>
+    <string name="file_upload">Wyślij</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_no">Nie</string>
+    <string name="no_sdcard">Karta SD nie jest zamontowana lub brak karty.</string>
+    <string name="no_wireless_settings_manager">Do wyświetlenia Menedżera ustawień programu Flash Player™ jest wymagane połączenie z Internetem.</string>
+    <string name="flash_player_settings_launcher_desc">Ustawienia programu Flash Player</string>
+</resources>

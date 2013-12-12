@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="corpus_name_summons">Tablet</string>
+    <string name="search_sources">Vyhľadávanie v tablete</string>
+    <string name="search_phone_or_tablet">Hľadať v tablete</string>
+</resources>

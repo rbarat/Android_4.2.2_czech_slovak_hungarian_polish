@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="unknown_artist_name">Nieznany wykonawca</string>
+    <string name="tell_save_record_success">Zapisane</string>
+    <string name="save_record">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="recording_format_high">Wysoka</string>
+    <string name="recording_format_mid">Średnia</string>
+    <string name="recording_format_low">Niska</string>
+    <string name="three_mins_avail_total">3 minuty dostępne</string>
+    <string name="alert_delete_multiple">Te rzeczy będą usunięta</string>
+    <string name="alert_delete_single">To będzie usunięte</string>
+    <string name="ok">OK</string>
+    <string name="delete">Usuń</string>
+    <string name="deleting">Usuwanie</string>
+    <string name="no_recording_file">(brak plików z nagraniami)</string>
+    <string name="recording_file_list">Lista nagrań</string>
+    <string name="recording_paused">Nagrywanie wstrzymane</string>
+    <string name="voice_quality">Jakość dźwięku</string>
+    <string name="recording_mode">Tryb nagrywania</string>
+    <string name="recording_effect">Efekty nagrywania</string>
+    <string name="select_voice_quality">Wybierz jakość dźwięku</string>
+    <string name="select_recording_mode">Wybierz tryb nagrywania</string>
+    <string name="select_recording_effect">Wybierz efekty nagrywania</string>
+    <string name="recording_mode_nomal">Normalne</string>
+    <string name="time_available" formatted="false">%d minut %ds dostępnych</string>
+    <string name="recording_mode_meeting">Spotkanie</string>
+    <string name="recording_mode_lecture">Czytanie</string>
+    <string name="sd_unmounted">Karta SD odmontowana.</string>
+    <string name="storage_low">Miejsce na domyślnej pamięci się wyczerpuje. Zatrzymaj nagrywanie lub zwolnij miejsce na karcie SD.</string>
+    <string name="storage_full">Domyślna pamięć zapełniona.</string>
+    <string name="sd_no">Proszę włożyć kartę SD</string>
+    <string name="recording_fail">Nagrywanie nieudane</string>
+    <string name="recorder_occupied">Nagrywanie jest zajęte przez inną aplikację</string>
+    <string name="playing_fail">Odtwarzanie nieudane</string>
+    <string name="player_occupied">Odtwarzanie jest zajęte przez inną aplikację</string>
+    <string name="recording_doc_deleted">Nagranie zostało skasowane.</string>
+    <string name="saving_fail">Błąd zapisywania</string>
+    <string name="deleting_fail">Błąd usuwania</string>
+    <string name="accessing_db_fail">Błąd dostępu do bazy danych.</string>
+    <string name="recording_effect_AGC">Automatyczna regulacja wzmocnienia</string>
+    <string name="recording_effect_AEC">Redukcja echa</string>
+    <string name="recording_effect_NS">Tłumienie szumów</string>
+    <string name="app_name">Rejestrator dźwięku</string>
+    <string name="recording">Nagrywanie</string>
+    <string name="recording_stopped">Nagrywanie zostało zatrzymane</string>
+    <string name="storage_is_full">Pamięć jest pełna</string>
+    <string name="max_length_reached">Osiągnięto maksymalną długość</string>
+    <string name="min_available">Zostało %d min.</string>
+    <string name="sec_available">Zostało %d sek.</string>
+    <string name="accept">Gotowe</string>
+    <string name="discard">Odrzuć</string>
+    <string name="button_ok">OK</string>
+    <string name="audio_db_album_name">Nagrania audio</string>
+    <string name="audio_db_playlist_name">Moje nagrania</string>
+    <string name="error_sdcard_access">Nie można uzyskać dostępu do karty SD</string>
+    <string name="error_mediadb_new_record">Nie można zapisać nagrania</string>
+    <string name="insert_sd_card">Włóż kartę SD</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="record_your_message">Nagraj wiadomość</string>
+    <string name="message_recorded">Wiadomość została nagrana</string>
+    <string name="review_message">Przejrzyj wiadomość</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="audio_db_artist_name">Twoje nagrania</string>
+    <string name="error_app_internal">Błąd wewnętrzny programu</string>
+    <string name="record_file_saved_folder_is">"Nagranie zapisane w folderze nagrań: "</string>
+</resources>

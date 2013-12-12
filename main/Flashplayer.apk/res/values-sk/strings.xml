@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="flash_player_desc">Adobe Flash Player</string>
+    <string name="audio_files">Zvukové súbory</string>
+    <string name="image_files">Obrazové súbory</string>
+    <string name="video_files">Video súbory</string>
+    <string name="empty_file_list">Neboli nájdené žiadne súbory.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Zrušiť</string>
+    <string name="file_save_as">Uložiť ako:</string>
+    <string name="file_download">Stiahnuť</string>
+    <string name="file_upload">Odoslať</string>
+    <string name="button_yes">Áno</string>
+    <string name="button_no">Nie</string>
+    <string name="no_sdcard">SD karta je odpojená alebo chýba.</string>
+    <string name="no_wireless_settings_manager">Na zobrazenie Správcu nastavení prehrávača Flash Player™ je vyžadované internetové pripojenie</string>
+    <string name="flash_player_settings_launcher_desc">Nastavenie pre Flash Player</string>
+</resources>

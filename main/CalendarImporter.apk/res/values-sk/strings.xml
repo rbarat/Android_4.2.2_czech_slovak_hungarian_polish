@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="import_to">Importovať do</string>
+    <string name="import_button">Importovať</string>
+    <string name="cancel">Storno</string>
+    <string name="no_access_toast">Účet nenájdený. Najprv pridajte účet</string>
+    <string name="null_name">Žiadny</string>
+    <string name="import_message">Chcete importovať # do kalendára?</string>
+    <string name="calendar_lable">"Kalendár: "</string>
+    <string name="date_lable">"Dátum: "</string>
+    <string name="import_title">Importovať udalosť kalendára</string>
+    <string name="importing">Importovanie...</string>
+    <string name="import_complete">Import bol dokončený</string>
+    <string name="open">Otvoriť</string>
+    <string name="done">Hotovo</string>
+    <string name="progresszero">0%</string>
+    <string name="import_vcs_failed">Nebolo možné importovať kalendár.</string>
+    <string name="title_lable">"Názov: "</string>
+    <string name="no_syncable_calendars">Nie je možné importovať</string>
+    <string name="no_calendars_found">Tento účet nepodporuje synchronizáciu kalendára alebo posledná synchronizácia nebola doteraz dokončená.</string>
+    <string name="retry">Opakovať</string>
+    <string name="give_up">Prerušiť</string>
+    <string name="open_calendar_failed">Kalendár nie je k dispozícii.</string>
+    <string name="loading">Načítavanie...</string>
+</resources>

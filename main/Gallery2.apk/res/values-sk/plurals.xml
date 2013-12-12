@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Zmazať vybrané položky?</item>
+        <item quantity="one">Zmazať vybranú položku?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Vybrané: %1$d</item>
+        <item quantity="zero">Vybrané: %1$d</item>
+        <item quantity="one">Vybraná: %1$d</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Vybrané: %1$d</item>
+        <item quantity="zero">Vybrané: %1$d</item>
+        <item quantity="one">Vybraná: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Vybrané: %1$d</item>
+        <item quantity="zero">Vybrané: %1$d</item>
+        <item quantity="one">Vybraná: %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Sprístupnenie albumov offline</item>
+        <item quantity="one">Sprístupnenie albumu offline</item>
+    </plurals>
+</resources>

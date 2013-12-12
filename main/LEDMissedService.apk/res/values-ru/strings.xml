@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="app_name">LED_Missed_Services</string>
+    <string name="pref_name">Настройки светодиода</string>
+    <string name="pref_serv">Включить LED сервис</string>
+    <string name="pref_serv_sum">Вкл./Выкл. после перезагрузки</string>
+    <string name="pref_sms">Проверка SMS/MMS</string>
+    <string name="pref_sms_sum">Проверка пропущенных SMS/MMS</string>
+    <string name="pref_call">Проверка Звонков</string>
+    <string name="pref_call_sum">Проверка пропущенных Звонков</string>
+    <string name="pref_style">Стиль мигания</string>
+    <string name="pref_style_sum">Выбрать стиль мигания светодиода</string>
+</resources>

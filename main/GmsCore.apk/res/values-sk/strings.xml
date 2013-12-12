@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="wallet_local_spinner_text">Načítanie platobných podrobností</string>
+    <string name="wallet_local_title">Platba</string>
+    <string name="wallet_disable_google_wallet">Zakázať Peňaženku Google</string>
+    <string name="wallet_google_wallet_disabled">Peňaženka Google zakázaná</string>
+    <string name="wallet_local_pay_with_wallet">Zaplatiť Peňaženkou Google</string>
+    <string name="wallet_local_add_new_card_title">Pridanie novej karty</string>
+    <string name="wallet_local_update_card_title">Aktualizácia karty</string>
+    <string name="wallet_local_add_new_address_title">Pridanie novej adresy</string>
+    <string name="wallet_local_update_address_title">Aktualizácia adresy</string>
+    <string name="wallet_save_to_chrome">Podrobnosti ukladať v prehliadači Chrome</string>
+    <string name="wallet_cancel">Zrušiť</string>
+    <string name="wallet_exit">Ukončiť</string>
+    <string name="wallet_error_creditcard_expiry_date_invalid">Dátum vypršania platnosti kreditnej karty nie je platný.</string>
+    <string name="wallet_error_creditcard_default_disallowed">Typ kreditnej karty je neplatný</string>
+    <string name="wallet_add_new_card_title">Pridať novú kartu</string>
+    <string name="wallet_card_number">Číslo karty</string>
+    <string name="wallet_card_holder_name">Meno držiteľa karty</string>
+    <string name="wallet_continue_label">Pokračovať</string>
+    <string name="wallet_save_label">Uložiť</string>
+    <string name="wallet_exp_hint">Koniec platnosti</string>
+    <string name="wallet_exp_month">MM</string>
+    <string name="wallet_exp_year">RR</string>
+    <string name="wallet_exp_month_year_separator">/</string>
+    <string name="wallet_cvc_hint">Bezpečnostný kód</string>
+    <string name="wallet_cvc">CVC</string>
+    <string name="wallet_phone_number">Telefónne číslo</string>
+    <string name="wallet_error_expired_credit_card">Kreditná karta s vypršanou platnosťou</string>
+    <string name="wallet_error_month_invalid">Neplatný mesiac</string>
+    <string name="wallet_error_year_invalid">Neplatný rok</string>
+    <string name="wallet_error_cvc_invalid">Neplatný kód CVC</string>
+    <string name="wallet_update_card_title">Aktualizácia karty</string>
+    <string name="wallet_add_new_address_title">Pridať novú adresu</string>
+    <string name="wallet_enter_email_address">E-mail</string>
+    <string name="wallet_invalid_email_error_message">Neplatný e-mail</string>
+    <string name="wallet_update_address_title">Aktualizácia adresy</string>
+    <string name="wallet_crash_message">Nákup sa nepodarilo dokončiť, pretože sa vyskytol technický problém.</string>
+    <string name="wallet_error_only_numeric_digits_allowed">Povolené sú len číslice.</string>
+    <string name="wallet_error_field_must_not_be_empty">Toto pole je povinné</string>
+    <string name="wallet_error_email_address_invalid">Neplatná emailová adresa</string>
+    <string name="wallet_error_creditcard_number_invalid">Neplatná kreditná karta</string>
+    <string name="wallet_error_phone_invalid">Neplatné telefónne číslo</string>
+    <string name="wallet_add_new_card">Pridať novú kartu</string>
+    <string name="wallet_select_payment_method">Vyberte spôsob platby</string>
+    <string name="wallet_expired_editable">Platnosť vyprš. – výberom aktual. dátum</string>
+    <string name="wallet_expired">S vypršanou platnosťou</string>
+    <string name="wallet_invalid">Neplatné</string>
+    <string name="wallet_add_new_address">Pridať novú adresu</string>
+    <string name="wallet_select_address">Vyberte adresu</string>
+    <string name="wallet_missing_phone_editable">Vybratím pridajte telefónne číslo</string>
+    <string name="wallet_min_address_editable">Výberom aktualizujte adresu</string>
+    <string name="wallet_shipping_label">Dodanie</string>
+    <string name="wallet_billing_label">Fakturácia</string>
+    <string name="wallet_use_as_shipping_address">Použiť ako dodaciu adresu?</string>
+    <string name="wallet_enter_shipping_address">ZADAJTE PODROBNOSTI O DODANÍ</string>
+    <string name="wallet_payment_method">SPÔSOB PLATBY</string>
+    <string name="wallet_billing_address">FAKTURAČNÁ ADRESA</string>
+    <string name="wallet_network_error_title">Žiadne internetové pripojenie</string>
+    <string name="wallet_network_error_message">"Dokončenie tejto úlohy vyžaduje pripojenie k sieti.
+Pripojte sa k sieti Wi-Fi alebo k dátovej sieti."</string>
+    <string name="wallet_ok">OK</string>
+    <string name="wallet_retry">Skúsiť znovu</string>
+    <string name="wallet_address_field_admin_area_area">Oblasť</string>
+    <string name="wallet_address_field_admin_area_county">Grófstvo</string>
+    <string name="wallet_address_field_admin_area_department">Správna oblasť</string>
+    <string name="wallet_address_field_admin_area_district">Obvod</string>
+    <string name="wallet_address_field_admin_area_do_si">Do / Si</string>
+    <string name="wallet_address_field_admin_area_emirate">Emirát</string>
+    <string name="wallet_address_field_admin_area_island">Ostrov</string>
+    <string name="wallet_address_field_admin_area_parish">Okrsok</string>
+    <string name="wallet_address_field_admin_area_prefecture">Prefektúra</string>
+    <string name="wallet_address_field_admin_area_province">Provincia</string>
+    <string name="wallet_address_field_admin_area_region">Oblasť</string>
+    <string name="wallet_address_field_admin_area_state">Štát</string>
+    <string name="wallet_address_field_locality">Mesto</string>
+    <string name="wallet_address_field_recipient">Meno príjemcu</string>
+    <string name="wallet_address_field_recipient_error_message">Meno a priezvisko sú povinné údaje</string>
+    <string name="wallet_address_field_organization">Organizácia</string>
+    <string name="wallet_address_field_address_line_1">Adresa</string>
+    <string name="wallet_address_field_address_line_2">Byt / apartmán</string>
+    <string name="wallet_address_field_dependent_locality" />
+    <string name="wallet_address_field_postal_code">Poštový kód</string>
+    <string name="wallet_address_field_zip_code">PSČ</string>
+    <string name="wallet_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_address_field_country">Krajina</string>
+    <string name="wallet_error_address_field_invalid">Neplatný kód: %s</string>
+    <string name="wallet_authenticate_instrument_instructions">V záujme vlastnej bezpečnosti vyplňte povinné pole nižšie</string>
+    <string name="security_settings_activity_title">Overenie aplikácií</string>
+    <string name="verify_applications">Overenie aplikácií</string>
+    <string name="verify_applications_summary">Google preskenuje aplikácie z iných zdrojov ako Google Play a upozorní vás na možné nebezpečenstvo. &lt;a href=%1$s>Viac informácií&lt;/a></string>
+    <string name="plus_app_label">Google+</string>
+    <string name="plus_service_title">Google+</string>
+    <string name="plus_one_self_removed">Vaša +1 bola odstránená.</string>
+    <string name="plus_one_self">+1 používateľa %1$s</string>
+    <string name="plus_one_public">Verejné</string>
+    <string name="plus_one_count_many">> 10 000</string>
+    <string name="plus_one_annotation_none">Odporučiť v službe Google</string>
+    <string name="plus_one_annotation_none_short">Odporučiť</string>
+    <string name="plus_one_annotation_count_prefix">+%1$s %2$s</string>
+    <string name="plus_one_annotation_count_only">+%1$s</string>
+    <string name="plus_one_social_annotation_suffix">%1$s dáva +1</string>
+    <string name="plus_one_social_annotation_user">Vy</string>
+    <string name="plus_one_social_annotation_separator">%1$s, %2$s</string>
+    <string name="plus_one_social_annotation_prefix_you">aj %1$s</string>
+    <string name="plus_one_social_annotation_prefix">aj %1$s</string>
+    <string name="plus_app_name">Google+</string>
+    <string name="plus_one_title">Dávate tomu verejne +1 pod menom</string>
+    <string name="plus_one_app">Z aplikácie &lt;b>%s&lt;b></string>
+    <string name="plus_one_undo">Späť</string>
+    <string name="plus_one_share">Zdieľať</string>
+    <string name="plus_one_error">Vyskytol sa dočasný problém s vaším hodnotením +1. Skúste to znova.</string>
+    <string name="plus_checking_gplus_signup_state">Pripája sa...</string>
+    <string name="plus_one_description_standard">Dotknite sa tlačidla +1.</string>
+    <string name="plus_one_description">Dotykom pridajte svoje hodnotenie +1 k existujúcim %1$s</string>
+    <string name="plus_one_description_remove">Dotykom odstráňte svoje hodnotenie +1 z existujúcich %1$s</string>
+    <string name="plus_invalid_account">Neplatný účet</string>
+    <string name="plus_internal_error">Vyskytla sa interná chyba.</string>
+    <string name="plus_audience_selection_title">Publikum</string>
+    <string name="plus_audience_selection_title_acl">Zdieľanie s…</string>
+    <string name="plus_audience_selection_title_update_circles">Pridanie do kruhov</string>
+    <string name="plus_audience_selection_title_search">Vyhľadávanie…</string>
+    <string name="plus_audience_selection_header_search">PREDCHÁDZAJÚCE VYHĽADÁVANIA</string>
+    <string name="plus_audience_selection_header_circles">KRUHY</string>
+    <string name="plus_audience_selection_header_people">ĽUDIA</string>
+    <string name="plus_audience_selection_everyone">Všetky kruhy</string>
+    <string name="plus_audience_selection_everyone_description">V prípade začiarknutia zahŕňa aj kruhy, ktoré vytvoríte v budúcnosti</string>
+    <string name="plus_audience_selection_hidden_circle">Ľudia v tomto kruhu nie sú vo vašom profile verejne viditeľní</string>
+    <string name="plus_audience_selection_public_circle">ktokoľvek na webe</string>
+    <string name="plus_circle_size_pattern">(%d)</string>
+    <string name="plus_audience_selection_loading">Načítava sa…</string>
+    <string name="plus_accessibility_audience_selection_circle_icon">Kruh</string>
+    <string name="plus_accessibility_audience_selection_person_avatar">Avatar</string>
+    <string name="plus_accessibility_audience_selection_person_circles">Kruhy</string>
+    <string name="plus_accessibility_comment_avatar">Kruhy</string>
+    <string name="plus_update_circles_progress">Aktualizujú sa kruhy...</string>
+    <string name="plus_update_circles_failed_message">Aktualizácia kruhov zlyhala. Skúste to znova neskôr.</string>
+    <string name="plus_list_apps_disabled_error">V súčasnosti nie je možné načítať pripojené aplikácie. <annotation id="learn_more">Viac informácií</annotation>"
+
+"</string>
+    <string name="plus_list_moments_disabled_error">V súčasnosti nie je možné načítať denník aktivít. <annotation id="learn_more">Viac informácií</annotation>"
+
+"</string>
+    <string name="plus_manage_app_disabled_error">V súčasnosti nie je možné načítať pripojenú aplikáciu. <annotation id="learn_more">Viac informácií</annotation></string>
+    <string name="plus_list_apps_aspen_empty_message">"Pomocou Prihlásenia cez Google+ ste sa nepripojili k žiadnym aplikáciám.
+
+"<annotation id="learn_more">Viac informácií</annotation>"
+
+"</string>
+    <string name="plus_list_apps_empty_message">K účtu Google ste si nepripojili žiadne aplikácie</string>
+    <string name="plus_list_moments_empty_message">Nemáte žiadne aktivity</string>
+    <string name="plus_list_moments_filter_empty_message">Nemáte žiadne aktivity tohto typu</string>
+    <string name="plus_app_settings_activity_label">Pripojené aplikácie</string>
+    <string name="plus_app_settings_activity_log_label">Denník aktivít</string>
+    <string name="plus_app_settings_apps_page_label">Všetky pripojené aplikácie</string>
+    <string name="plus_app_settings_activity_log_page_label">Denník aktivít</string>
+    <string name="plus_app_settings_all_apps_label">Všetky pripojené aplikácie</string>
+    <string name="plus_app_settings_sign_in_apps_label">Aplikácie s Prihlásením cez Google+</string>
+    <string name="plus_app_settings_accounts_label">ÚČET</string>
+    <string name="plus_disconnect_source_dialog_title">Odpojiť?</string>
+    <string name="plus_disconnect_source_dialog_message">%1$s už nebude mať prístup k vášmu účtu Google, ktorý ste udelili, a nebude môcť odosielať vaše aktivity v aplikácii do služby Google. Dokončenie tejto operácie môže trvať až hodinu.</string>
+    <string name="plus_disconnect_source_non_aspen_dialog_message">Chcete túto aplikáciu odpojiť zo služby Google?</string>
+    <string name="plus_disconnect_source_dialog_checkbox">Odstrániť v službách Google aj všetky aktivity v aplikácii %s</string>
+    <string name="plus_disconnect_source_dialog_positive_button">Odpojiť</string>
+    <string name="plus_disconnect_source_dialog_negative_button">Zrušiť</string>
+    <string name="plus_disconnect_source_progress_dialog_message">Odpája sa aplikácia %s…</string>
+    <string name="plus_disconnect_source_failed_dialog_message">Aplikáciu %s sa nepodarilo odpojiť.</string>
+    <string name="plus_unknown_app_name">Aplikácia</string>
+    <string name="plus_loading">Načítava sa…</string>
+    <string name="plus_list_apps_error">Aplikácie sa nepodarilo načítať. Skúste to znova neskôr.</string>
+    <string name="plus_list_apps_error_aspen">"Nepodarilo sa načítať aplikácie.
+
+Získajte "<annotation id="learn_more">viac informácií</annotation> o aplikáciách prostredníctvom Prihlásenia cez Google+.</string>
+    <string name="plus_list_apps_no_accounts">Žiadne účty.</string>
+    <string name="plus_list_moments_time_acl_format">%1$s – %2$s</string>
+    <string name="plus_list_moments_error">Aktivity sa nepodarilo načítať. Skúste to znova neskôr.</string>
+    <string name="plus_list_moments_view_moment_url_error">Táto činnosť sa nedá zobraziť z vášho denníka činností. Prejdite priamo do aplikácie.</string>
+    <string name="plus_manage_app_label">Pripojená aplikácia</string>
+    <string name="plus_manage_app_acl_description_label">Aktivity, ktoré táto aplikáicia zdieľa so službami Google</string>
+    <string name="plus_manage_app_no_acl_description">Ako túto aplikáciu využívate</string>
+    <string name="plus_manage_app_pacl_label">Aktivity viditeľné prostredníctvom služieb Google pre:</string>
+    <string name="plus_manage_app_pacl_sub_label">Možnosti, ktoré tu vyberiete, nezmenia viditeľnosť existujúcich aktivít v denníku aktivít, ale ovplyvnia hernú aktivitu.</string>
+    <string name="plus_manage_app_facl_label">Ľudia z vašich kruhov, ktorých vidí táto aplikácia</string>
+    <string name="plus_manage_app_scopes_label">Informácie, ku ktorým má táto aplikácia prístup</string>
+    <string name="plus_choose_facl_title">Ľudia, ktorých aplikácia vidí</string>
+    <string name="plus_facl_default_description">Táto aplikácia vyžaduje zoznam ľudí, ktorí sú v kruhoch začiarknutých nižšie (nie názvy kruhov), aby ste ju mohli naplno využívať a spojiť sa s priateľmi.</string>
+    <string name="plus_manage_app_disconnect_label">Odpojiť</string>
+    <string name="plus_manage_app_only_you_label">Len vy</string>
+    <string name="plus_manage_app_limited_label">Zdieľané súkromne</string>
+    <string name="plus_manage_app_public_label">Uverejnené</string>
+    <string name="plus_manage_app_extended_circles_label">Rozšírené kruhy</string>
+    <string name="plus_manage_app_domain_label">Doména</string>
+    <string name="plus_manage_app_all_circles_label">Všetky kruhy</string>
+    <string name="plus_manage_app_no_circles_label">Žiadne</string>
+    <string name="plus_manage_app_updating_acl">Aktualizuje sa...</string>
+    <string name="plus_manage_app_acl_error">Aplikáciu sa nepodarilo aktualizovať.</string>
+    <string name="plus_manage_app_app_icon_desc">Ikona</string>
+    <string name="plus_manage_moment_label">Aktivita</string>
+    <string name="plus_manage_moment_delete_label">ODSTRÁNIŤ</string>
+    <string name="plus_manage_moment_no_in_app_delete">Túto aktivitu nie je možné spravovať. <annotation id="learn_more">Viac informácií</annotation></string>
+    <string name="plus_manage_moment_delete_confirm">Odstrániť</string>
+    <string name="plus_manage_moment_acl">"Viditeľné pre:
+%1$s"</string>
+    <string name="plus_manage_moment_acl_separator">", "</string>
+    <string name="plus_manage_moment_acl_error">Niektoré podrobnosti sa nepodarilo načítať, skúste to znova neskôr</string>
+    <string name="plus_delete_moment_progress_dialog_message">Odstraňuje sa…</string>
+    <string name="plus_delete_moment_failed_dialog_message">Pri odstraňovaní aktivít sa vyskytol problém, skúste to znova neskôr.</string>
+    <string name="plus_cross_client_auth_toast_text">Vitajte späť v aplikácii %1$s. Prihlásili ste sa prostredníctvom služby Google ako %2$s.</string>
+    <string name="plus_posted_just_now">Práve teraz</string>
+    <string name="plus_audience_selection_ok">OK</string>
+    <string name="plus_audience_selection_cancel">Zrušiť</string>
+    <string name="plus_domain_restricted_choice_title">Obmedzenie na doménu %s</string>
+    <string name="plus_domain_restricted_choice_body">Brániť v zdieľaní príspevku mimo domény %s</string>
+    <string name="plus_domain_default">vaša doména</string>
+    <string name="plus_sharebox_cancel">Zrušiť</string>
+    <string name="plus_sharebox_share">Zdieľať</string>
+    <string name="plus_sharebox_post_body_hint">Podeľte sa o svoj názor…</string>
+    <string name="plus_sharebox_post_body_icon">Napísať</string>
+    <string name="plus_sharebox_preview_loading">Načítava sa…</string>
+    <string name="plus_sharebox_internal_error">Nebolo možné zdieľať.</string>
+    <string name="plus_sharebox_load_error">Vyskytol sa dočasný problém s načítaním dialógového okna zdieľania. Skúste to znova.</string>
+    <string name="plus_sharebox_post_error_title">Upozornenie</string>
+    <string name="plus_sharebox_post_error_message">Príspevok sa nedá vytvoriť. Skúste to znova.</string>
+    <string name="plus_sharebox_under_age_warning_title">Verejné zdieľanie</string>
+    <string name="plus_sharebox_under_age_warning_message">Pri verejnom zdieľaní obsahu budú mať osoby, ktoré ste si nepridali do kruhov, možnosť pozrieť si váš príspevok a komentovať.</string>
+    <string name="plus_sharebox_post_success">Váš príspevok sa zdieľa.</string>
+    <string name="plus_sharebox_post_pending">Odosiela sa...</string>
+    <string name="plus_sharebox_audience_view_icon_description">Upraviť</string>
+    <string name="plus_sharebox_audience_view_name_separator">", "</string>
+    <string name="plus_sharebox_audience_selection_activity_button">Hotovo</string>
+    <string name="plus_sharebox_audience_selection_activity_title">Výber príjemcov</string>
+    <string name="plus_sharebox_audience_to_text">S:</string>
+    <string name="plus_sharebox_confirm_cancel_dialog_title">Google+</string>
+    <string name="plus_sharebox_confirm_cancel_dialog_message">Chcete tento príspevok zahodiť?</string>
+    <string name="plus_install_app_dialog_title">Získať Google+</string>
+    <string name="plus_install_app_dialog_message">Chcete získať aplikáciu Google+ a zobraziť si príspevok, ktorý ste práve zdieľali?</string>
+    <string name="plus_install_app_dialog_positive_button">Inštalovať</string>
+    <string name="plus_install_app_dialog_negative_button">Teraz nie</string>
+    <string name="plus_install_app_dialog_checkbox_text">Túto otázku už nezobrazovať.</string>
+    <string name="plus_sharebox_no_network_connection">Príspevok sa nedá vytvoriť. Skúste to znova.</string>
+    <string name="plus_plus_query_msg">So službou Google+ sa zdieľanie na webe podobá viac zdieľaniu v živote</string>
+    <string name="plus_first_name">Meno</string>
+    <string name="plus_last_name">Priezvisko</string>
+    <string name="plus_name_title">Vaše meno</string>
+    <string name="plus_bad_name_title">Chcete použiť toto meno?</string>
+    <string name="plus_invalid_name_title">Toto meno sa nedá použiť</string>
+    <string name="plus_bad_name_display">%1$s %2$s</string>
+    <string name="plus_bad_name_prompt">Je toto meno správne?</string>
+    <string name="plus_bad_name_text">Zadané meno sa zdá byť v rozpore s našimi <annotation id="oob_names_policy">Pravidlami pre mená</annotation>.</string>
+    <string name="plus_bad_name_hard_fail_text">Toto meno nezodpovedá našim <annotation id="oob_names_policy">Pravidlám pre mená</annotation>.</string>
+    <string name="plus_bad_name_review_text">Ak si meno chcete zmeniť, dotknite sa možnosti Zmeniť. Ak ho chcete odoslať na kontrolu, dotknite sa možnosti Odoslať. Ak ho odošlete na kontrolu, váš profil sa pozastaví a používanie iných produktov Google, ktoré takýto <annotation id="oob_profile_faq">profil</annotation> vyžadujú, budete mať obmedzené.</string>
+    <string name="plus_invalid_name_text">Toto meno nemôžete použiť v Google+, pretože obsahuje neplatné znaky.</string>
+    <string name="plus_invalid_nickname_text">Toto meno nemôžete použiť v Google+, pretože obsahuje neplatné znaky. Pokúšate sa použiť prezývku, predchádzajúce meno alebo titul? Po pripojení ich môžete pridať do svojho profilu.</string>
+    <string name="plus_invalid_other_text">Toto meno sa nedá použiť v Google+.</string>
+    <string name="plus_bad_name_agree_text">Rozumiem a chcem odoslať svoje meno na kontrolu.</string>
+    <string name="plus_bad_name_decline_button_label">Zmeniť</string>
+    <string name="plus_bad_name_agree_button_label">Odoslať</string>
+    <string name="plus_bad_name_skip_button_label">Vynechať Google+</string>
+    <string name="plus_plus_faq_title">Vitajte v Google+!</string>
+    <string name="plus_dasher_warning">Váš účet spravuje doména %s. Váš správca má kedykoľvek prístup k vašim údajom a môže ich bez vášho povolenia zmeniť alebo odstrániť.</string>
+    <string name="plus_dasher_learn_more"><annotation id="oob_dasher_learn_more">Viac informácií</annotation>.</string>
+    <string name="plus_dasher_info_text_title">Služba Google+ nie je k dispozícii</string>
+    <string name="plus_dasher_info_text_one">Služba Google+ nie je k dispozícii pre vašu organizáciu (%s). O povolenie tejto služby požiadajte správcu.</string>
+    <string name="plus_dasher_info_text_two">Ak ste správca, <annotation id="oob_disabled_accounts_learn_more">tu sa dozviete viac</annotation>.</string>
+    <string name="plus_dasher_back_text">OK</string>
+    <string name="plus_oob_no_connection_title">Žiadne pripojenie</string>
+    <string name="plus_oob_no_connection_message">Nepodarilo sa pripojiť na server.</string>
+    <string name="plus_picasa_info_title">Picasa a Google+</string>
+    <string name="plus_picasa_info_text_title">Týka sa to používateľov služby Picasa</string>
+    <string name="plus_picasa_info_text_one">Osoby, s ktorými zdieľate albumy, uvidia tieto fotky vo vašom profile a vo svojich výsledkoch vyhľadávania Google.</string>
+    <string name="plus_picasa_info_text_two">Na vašich fotografiách, v komentároch a značkách sa namiesto prezývky v programe Picasa zobrazí vaše meno.</string>
+    <string name="plus_picasa_info_text_three">Každý používateľ, s ktorým zdieľate album, uvidí, s kým sa ešte zdieľa. Ak album nie je uzamknutý, môže ho navyše opäť zdieľať.</string>
+    <string name="plus_allow_personalized_content">Služba Google smie použiť informácie o vašom účte na prispôsobenie hodnotení +1 týkajúcich sa obsahu a reklám na webových lokalitách nepatriacich Google.</string>
+    <string name="plus_allow_picasa_changes">Rozumiete zmenám, ktoré sa vykonajú vo <annotation id="picasa_albums_change">Webových albumoch služby Picasa</annotation>, keď sa vytvorí váš profil.</string>
+    <string name="plus_picasa_link_info"><annotation id="picasa_albums_change">Zobraziť zmeny vo Webových albumoch programu Picasa.</annotation></string>
+    <string name="plus_gender_prompt">Pohlavie</string>
+    <string name="plus_oob_default_promo">Využívajte Google naplno vďaka verejnému Google+ profilu.</string>
+    <string name="plus_done">OK</string>
+    <string name="plus_learn_more_title">Viac informácií</string>
+    <string name="plus_learn_more_bad_name">Google+ vyžaduje používanie pravého mena. Váš profil by mal zastupovať jednu osobu (nie spoločnosť, organizáciu ani rodinu) a mal by obsahovať vaše meno a priezvisko v jednom jazyku bez titulov a zbytočnej interpunkcie. Po registrácii môžete prezývky a iné mená, ktoré sa s vami spájajú, pridať do poľa Iné mená vo svojom profile.</string>
+    <string name="plus_learn_more_bad_name_title">Informácie o Pravidlách pre mená</string>
+    <string name="plus_setup_wizard_title">Sprievodca nastavením</string>
+    <string name="plus_close_button_label">Zavrieť</string>
+    <string name="plus_android_privacy_policy_title">Ďalšie pravidlá ochrany osobných údajov</string>
+    <string name="plus_google_terms_of_service_title">Zmluvné podmienky Google</string>
+    <string name="plus_google_privacy_policy_title">Pravidlá spoločnosti Google týkajúce sa ochrany osobných údajov</string>
+    <string name="plus_google_plus_privacy_policy_title">Pravidlá ochrany osobných údajov služby Google Plus</string>
+    <string name="plus_google_play_tos_title">Zmluvné podmienky služby Google Play</string>
+    <string name="plus_oob_location_sharing_title">Zdieľanie polohy</string>
+    <string name="plus_oob_location_tos_title">Zmluvné podmienky pre polohu</string>
+    <string name="plus_oob_maps_tos_title">Zmluvné podmienky služby Mapy</string>
+    <string name="plus_oob_privacy_policy_title">Pravidlá ochrany osobných údajov</string>
+    <string name="plus_chrome_tos_title">Zmluvné podmienky prehliadača Chrome</string>
+    <string name="plus_chrome_privacy_title">Upozornenie o ochrane osobných údajov prehliadača Chrome</string>
+    <string name="plus_oob_names_policy_title">Pravidlá pre názvy Google+ profilov</string>
+    <string name="plus_oob_profile_faq_title">Informácie o profiloch</string>
+    <string name="plus_oob_dasher_learn_more_title">Prístup vášho správcu k údajom</string>
+    <string name="plus_oob_dasher_learn_more_error_title">Dokumentácia a podpora pre aplikácie</string>
+    <string name="plus_url_load_unsuccessful_message">Zariadenie so systémom Android nie je pripojené k dátovej službe. Ak chcete tieto informácie zobraziť hneď, pomocou webového prehliadača prejdite na stránku %s.</string>
+    <string name="plus_url_load_unsuccessful_message_wifi_only">Zariadenie so systémom Android nie je pripojené k sieti Wi-Fi. Ak chcete tieto informácie zobraziť hneď, pomocou webového prehliadača prejdite na stránku %s.</string>
+    <string name="plus_oob_first_and_last_name">%1$s %2$s</string>
+    <string name="plus_unified_setup_activity_title">Vytvorenie Google+ profilu</string>
+    <string name="plus_unified_setup_activity_simple_oob_title">Google+</string>
+    <string name="plus_unified_setup_activity_message">Váš profil a hodnotenia +1 sa zobrazujú verejne vo vyhľadávaní, v reklamách a na webe.</string>
+    <string name="plus_oob_picasa_change_title">Zmeny programu Picasa</string>
+    <string name="plus_oob_tos">Keď sa dotknete položky Vytvoriť, vytvoríte verejný profil, vyjadríte súhlas s tým, že spoločnosť Google bude <annotation id="oob_location_sharing">používať vašu polohu</annotation>, a prijmete <annotation id="tos">Zmluvné podmienky</annotation> služby Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_oob_tos_setup_wizard">Ak budete pokračovať, vytvorí sa verejný profil a s jeho vytvorením prijímate, že spoločnosť Google bude <annotation id="oob_location_sharing">používať vašu polohu</annotation>, a zároveň prijímate <annotation id="tos">Zmluvné podmienky</annotation> spoločnosti Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_simple_oob_tos_subtitle">Zmluvné podmienky mobilných služieb</string>
+    <string name="plus_simple_oob_tos">Keď sa dotknete položky Prijať, súhlasíte s tým, že spoločnosť Google bude <annotation id="oob_location_sharing">používať vašu polohu</annotation>, a prijmete <annotation id="tos">Zmluvné podmienky</annotation> služby Google, <annotation id="oob_maps_tos">Zmluvné podmienky služby</annotation> Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_simple_oob_tos_setup_wizard">Pokračovaním prijímate, že spoločnosť Google bude <annotation id="oob_location_sharing">používať vašu polohu</annotation>, a zároveň prijímate <annotation id="tos">Zmluvné podmienky</annotation> služby Google, <annotation id="oob_maps_tos">Zmluvné podmienky služby</annotation> Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_oob_tos_korea">Keď sa dotknete položky Vytvoriť, vytvoríte verejný profil a prijmete <annotation id="oob_location_tos_for_korea">Zmluvné podmienky určovania polohy</annotation>, <annotation id="tos">Zmluvné podmienky</annotation> služby Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_oob_tos_korea_setup_wizard">Ak budete pokračovať, vytvorí sa verejný profil a spolu s jeho vytvorením zároveň prijímate <annotation id="oob_location_tos_for_korea">Zmluvné podmienky pre polohu</annotation>, <annotation id="tos">Zmluvné podmienky</annotation> spoločnosti Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_simple_oob_tos_korea">Keď sa dotknete položky Prijať, prijmete <annotation id="oob_location_tos_for_korea">Zmluvné podmienky určovania polohy</annotation>, <annotation id="tos">Zmluvné podmienky</annotation> služby Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_simple_oob_tos_korea_setup_wizard">Pokračovaním prijímate <annotation id="oob_location_tos_for_korea">Zmluvné podmienky pre polohu</annotation>, <annotation id="tos">Zmluvné podmienky</annotation> spoločnosti Google, <annotation id="oob_maps_tos">Zmluvné podmienky</annotation> služby Mapy a <annotation id="oob_privacy_policy">Pravidlá ochrany osobných údajov</annotation>.</string>
+    <string name="plus_oob_join">Vytvoriť</string>
+    <string name="plus_oob_next">Ďalej</string>
+    <string name="plus_oob_tos_accept">Súhlasím</string>
+    <string name="plus_oob_loading">Načítava sa…</string>
+    <string name="plus_oob_interstitial_loading">Kontaktuje sa služba Google+…</string>
+    <string name="plus_oob_interstitial_loading_body">Môže to trvať niekoľko minút.</string>
+    <string name="plus_oob_sending">Odosiela sa…</string>
+    <string name="plus_oob_interstitial_sending">Odosiela sa…</string>
+    <string name="plus_oob_interstitial_sending_body">Môže to trvať niekoľko minút.</string>
+    <string name="plus_oob_interstitial_cancel_button_label">Teraz nie</string>
+    <string name="plus_oob_cancel_button_label">Zrušiť</string>
+    <string name="plus_oob_done_button_label">Hotovo</string>
+    <string name="plus_oob_default_device_name">Android</string>
+    <string name="plus_oob_dmagent_activity_activate_retry_button">Aktivovať</string>
+    <string name="plus_oob_dmagent_activity_download_message">" Vaša doména vyžaduje správu mobilného zariadenia. Nainštalujte aplikáciu Google Apps Device Policy a vynúťte pravidlá zabezpečenia vyžadované účtom  "<b>^1</b> .</string>
+    <string name="plus_oob_back_button_label">Späť</string>
+    <string name="plus_oob_error_needs_browser">Ak chcete prejsť do svojho účtu, treba sa prihlásiť na webe. Dotknite sa položky Ďalej a spustite prihlásenie v prehliadači.</string>
+    <string name="plus_oob_error_bad_password">Heslo je príliš slabé alebo obsahuje neplatné znaky. Skúste to znova.</string>
+    <string name="plus_oob_show_error_activity_title">Nepodarilo sa prihlásiť</string>
+    <string name="plus_oob_try_again_button_label">Skúsiť znova</string>
+    <string name="plus_oob_error_login_failed">"Používateľské meno a heslo nie sú správne. Skúste to znova.
+
+Ak chcete obnoviť informácie o svojom účte, prejdite na stránku google.com/accounts/recovery/."</string>
+    <string name="plus_oob_skip_button_label">Vynechať</string>
+    <string name="plus_oob_login_activity_loginfail_text_pwonly">Zadali ste nesprávne heslo alebo sa váš účet zmenil. Znova zadajte heslo.</string>
+    <string name="plus_oob_existing_account_error_title">Účet už existuje</string>
+    <string name="plus_oob_existing_account_error_text">Na tomto zariadení so systémom Android už účet ^1 existuje.</string>
+    <string name="plus_oob_no_network_help">Môže ísť o dočasný problém alebo sa vášmu zariadeniu so systémom Android neposkytujú dátové služby. Pripojte sa k mobilnej sieti a skúste to znova alebo sa pripojte k sieti Wi-Fi.</string>
+    <string name="plus_oob_no_network_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="plus_oob_no_network">Nemáte pripojenie na sieť.</string>
+    <string name="plus_oob_network_unreliable">Nedá sa vytvoriť spoľahlivé pripojenie na server.</string>
+    <string name="plus_oob_network_unreliable_help">Môže ísť o dočasný problém alebo sa vášmu zariadeniu so systémom Android neposkytujú dátové služby. Ak sa problém nevyrieši, zavolajte na oddelenie starostlivosti o zákazníkov.</string>
+    <string name="plus_oob_network_unreliable_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="plus_oob_server_error">Pri komunikácii so servermi Google sa vyskytol problém.</string>
+    <string name="plus_oob_server_error_help">Skúste to znova neskôr.</string>
+    <string name="plus_oob_failure_title">Google+ profil vytvorte neskôr</string>
+    <string name="plus_oob_failure_new_account_text">Váš účet Google sa vytvoril, no vaša žiadosť o vytvorenie Google+ profilu neprešla. Skúste to znova neskôr z ľubovoľného webového prehliadača na stránke plus.google.com.</string>
+    <string name="plus_oob_failure_text">Ľutujeme, v Google+ sa nepodarilo nastaviť váš profil. Skúste to znova neskôr.</string>
+    <string name="plus_oob_submission_error_text">Vyskytla sa chyba. Skúste to znova.</string>
+    <string name="plus_oob_next_button_label">Ďalej</string>
+    <string name="plus_oob_dmagent_activity_download_retry_button">Prevziať</string>
+    <string name="plus_oob_submission_title">Ľutujeme…</string>
+    <string name="plus_oob_error_invalid_second_factor">Namiesto obyčajného hesla účtu použite heslo pre konkrétnu aplikáciu.</string>
+    <string name="plus_oob_error_account_not_verified">"Tento účet nie je overený. Skontrolujte si e-maily a pomocou priloženého odkazu tento účet overte. 
+
+(Ak chcete informácie o účte obnoviť, v počítači prejdite na stránku http://www.google.com/accounts/recovery.)"</string>
+    <string name="plus_oob_error_account_disabled">"Tento účet bol zakázaný. 
+
+(Podrobnosti získate po prechode na stránku http://google.com/accounts pomocou webového prehliadača.)"</string>
+    <string name="plus_oob_account_already_has_gmail">V účte už je Gmail.</string>
+    <string name="plus_oob_error_bad_username">Neplatné používateľské meno.</string>
+    <string name="plus_oob_edit_name_warning">Zmenou Google+ profilu sa zmení váš profil vo všetkých službách Google.</string>
+    <string name="plus_oob_error_not_logged_in">Používateľ nie je prihlásený.</string>
+    <string name="plus_oob_generic_creation_error">Mrzí nás to, no v službe Google+ sa nepodarilo nastaviť váš profil. Skúste to neskôr.</string>
+    <string name="plus_oob_doesnt_use_gmail">" "<b>^1</b> nepoužíva Gmail.</string>
+    <string name="plus_oob_error_username_unavailable">Používateľské meno nie je k dispozícii.</string>
+    <string name="plus_oob_invalid_scope">Počas žiadosti o overenie totožnosti sa použil neplatný rozsah.</string>
+    <string name="people_service_title">Služba Ľudia</string>
+    <string name="people_sync_service_title">Podrobnosti o ľuďoch</string>
+    <string name="people_content_provider_title">Podrobnosti o ľuďoch</string>
+    <string name="people_view_profile_action_label">Zobraziť Google+ profil</string>
+    <string name="people_start_conversation_action_label">Začať konverzáciu</string>
+    <string name="people_start_hangout_action_label">Začať Hangout</string>
+    <string name="people_add_to_circle_action_label">Pridať do kruhu</string>
+    <string name="people_google_plus_account_label">Google+</string>
+    <string name="people_google_plus_group">Google+ kruhy</string>
+    <string name="people_post_original_author">Ako prvý zdieľal tento príspevok používateľ &lt;b>%s&lt;/b></string>
+    <string name="people_avatar_dialog_title">Nastavenie profilovej fotografie</string>
+    <string name="people_avatar_dialog_item_take_photo">Nasnímať fotku</string>
+    <string name="people_avatar_dialog_item_pick_photo">Vybrať fotografiu</string>
+    <string name="people_avatar_progress_message">Nastavuje sa profilová fotografia…</string>
+    <string name="people_avatar_preview_accept_button">Prijať</string>
+    <string name="people_avatar_error">Profilovú fotografiu sa nepodarilo uložiť.</string>
+    <string name="people_avatar_error_not_plus_user">Na nastavenie profilovej fotografie musíte mať Google+ profil.</string>
+    <string name="people_export_title">Kopírovanie databázy ľudí alebo kruhov</string>
+    <string name="people_export_database_message">Chystáte sa 1) vytvoriť v internom úložnom priestore kópiu vašej databázy so všetkými informáciami, ktoré súvisia s ľuďmi alebo kruhmi, a 2) odoslať ju e-mailom. Po prijatí e-mailu alebo úspešnom skopírovaní mimo zariadenia nezabudnite túto kópiu odstrániť.</string>
+    <string name="people_export_delete_button">Odstrániť</string>
+    <string name="people_export_start_button">Spustiť</string>
+    <string name="people_export_email_sender_picker">Vyberte program na odoslanie vášho súboru</string>
+    <string name="people_export_email_subject">Prikladám databázu ľudí</string>
+    <string name="people_export_email_body">V prílohe je moja databáza ľudí a kruhov. Narábajte s ňou zodpovedne.</string>
+    <string name="mdm_settings_locate_title">Vzdialene nájsť toto zariadenie</string>
+    <string name="mdm_settings_locate_summary">Zobraziť polohu zariadenia v aplikácii Správca zariadenia Android</string>
+    <string name="mdm_settings_locate_disabled_summary">Nedostupné, pretože je vypnutá možnosť Nastavenia Google > Poloha > Prístup k polohe</string>
+    <string name="mdm_settings_wipe_title">Nastaviť vzdialené uzamk. a obnovenie tov. nastav.</string>
+    <string name="mdm_settings_wipe_summary">Ak zariadenie stratíte, môžete ho vzdialene zamknúť alebo vymazať pomocou Správcu zariadenia Android</string>
+    <string name="mdm_device_admin_desc">Ak zariadenie stratíte, Správca zariadenia Android ho môže vzdialene zamknúť alebo vymazať. Najprv však musíte udeliť niektoré práva správcu.</string>
+    <string name="mdm_device_admin_desc_2">Povolenie na uzamknutie alebo vymazanie strateného zariadenia pre Správcu zariadenia Android</string>
+    <string name="mdm_help">Pomocník</string>
+    <string name="mdm_reminder_notification_text">Nastaviť vzdialené uzamknutie a obnovenie továrenských nastavení</string>
+    <string name="maps_API_MY_LOCATION_ACCURACY">"Moja poloha 
+Presnosť na {0} m"</string>
+    <string name="maps_API_OUTDATED_WARNING">Táto aplikácia používa zastaranú verziu služby Mapy. Nemusí fungovať správne.</string>
+    <string name="maps_dav_map_copyrights_google_only">© %1$d Google</string>
+    <string name="maps_dav_map_copyrights_full">© %1$d Google - snímky © %2$d %3$s, mapové údaje © %4$d %5$s</string>
+    <string name="maps_dav_map_copyrights_imagery_only">© %1$d Google - snímky © %2$d %3$s</string>
+    <string name="maps_dav_map_copyrights_map_data_only">© %1$d Google - mapové údaje © %2$d %3$s</string>
+    <string name="app_label">Sieťové umiestnenie</string>
+    <string name="location_warning_title">Súhlas so zhromažďovaním údajov o polohe</string>
+    <string name="location_warning_message">Povoliť službe určovania polohy Google zber anonymných údajov o polohe. Niektoré údaje môžu byť uložené vo vašom zariadení. Zhromažďovanie údajov môže prebiehať aj vtedy, keď nie sú spustené žiadne aplikácie.</string>
+    <string name="agree">Súhlasím</string>
+    <string name="disagree">Nesúhlasím</string>
+    <string name="location_ulr_ambiguous_setting_text">Predchádzajúce nastavenie nie je možné určiť. Zapnúť?</string>
+    <string name="location_settings_screen_title">Nastavenia polohy Google</string>
+    <string name="location_settings_menu_help">Pomocník</string>
+    <string name="location_settings_allow_access_title">Pristupovať k polohe</string>
+    <string name="location_settings_allow_access_summary_phone">Povoliť aplikáciám Google používať informácie o polohe tohto telefónu, ak je zapnutý</string>
+    <string name="location_settings_allow_access_summary_tablet">Povoliť aplikáciám Google používať informácie o polohe tohto tabletu, ak je zapnutý</string>
+    <string name="location_settings_see_global_settings_dialog_message">"Toto nastavenie upravuje prístup k polohe pre aplikácie Google. 
+
+Ak chcete ovládať prístup k polohe pre všetky aplikácie, prejdite do časti Nastavenia > Prístup k polohe."</string>
+    <string name="location_settings_ulr_summary_on">Zapnuté</string>
+    <string name="location_settings_ulr_summary_off">Vypnuté</string>
+    <string name="location_settings_ulr_summary_loading">Načítava sa...</string>
+    <string name="location_settings_ulr_summary_offline">Nedostupné, pretože je zariadenie offline</string>
+    <string name="location_settings_ulr_summary_error">Server je nedostupný a nastavenia preto nie je možné načítať. Skúste to znova neskôr.</string>
+    <string name="location_settings_ulr_summary_auth_error">Nedostupné, pretože používateľské meno alebo heslo nie je správne</string>
+    <string name="location_settings_ulr_summary_unknown">Neznáme</string>
+    <string name="location_settings_ulr_summary_ambiguous">Predchádzajúce nastavenie nie je možné určiť. Vypnuté.</string>
+    <string name="location_settings_ulr_summary_google_location_disabled">Zakázané</string>
+    <string name="location_settings_ulr_summary_restricted">Zakázané</string>
+    <string name="location_settings_ulr_summary_unsupported_country">Nie je k dispozícii v krajine %1$s</string>
+    <string name="location_settings_ulr_summary_unsupported_region">V tejto oblasti nie je k dispozícii</string>
+    <string name="location_settings_not_available_title">Prihlásiť sa</string>
+    <string name="location_settings_not_available_summary">Ak chcete zobraziť tieto nastavenia, prihláste sa pomocou účtu Google.</string>
+    <string name="location_settings_location_reporting_activity_title">Hlásenie polohy</string>
+    <string name="location_settings_location_reporting_summary_full">"Spoločnosť Google používa túto funkciu v službách, ako sú Asistent Google alebo Mapy Google. 
+
+Zapnutím Hlásenia polohy umožníte službám Google, ktoré túto funkciu používajú, aby ukladali a používali najnovšie údaje o polohe zariadenia v súvislosti s účtom Google."</string>
+    <string name="location_settings_location_history_activity_title">História polohy</string>
+    <string name="location_settings_location_history_summary_full">"Toto nastavenie umožňuje službe Google ukladať históriu údajov o polohe zariadenia, v ktorých ste pre tento účet povolili Hlásenie polohy. História polohy umožňuje službe Google, aby vám poskytovala lepšie funkcie, napríklad Asistent Google vás vďaka nej môže upozorniť na premávku na trase do práce. 
+
+Históriu polohy môžete zobraziť a spravovať na stránke maps.google.com/locationhistory. Históriu polohy môžete kedykoľvek vypnúť, neodstránite tým však existujúce záznamy. Všetky existujúce záznamy Histórie polohy sa dajú z účtu odstrániť pomocou tlačidla nižšie."</string>
+    <string name="location_settings_delete_location_history">ODSTRÁNIŤ HISTÓRIU POLOHY</string>
+    <string name="location_settings_delete_location_history_in_progress">PREBIEHA ODSTRAŇOVANIE...</string>
+    <string name="location_settings_confirm_deleting_location_history_title">Natrvalo odstrániť?</string>
+    <string name="location_settings_confirm_deleting_location_history_body">"História polohy sa už nebude dať obnoviť. 
+
+Asistent Google a ďalšie aplikácie, ktoré používajú Históriu polohy, môžu prestať fungovať."</string>
+    <string name="location_settings_confirm_deleting_location_history_checkbox">Rozumiem, odstrániť</string>
+    <string name="location_settings_confirm_deleting_location_history_confirm">Odstrániť</string>
+    <string name="location_settings_delete_auth_error">Nesprávne používateľské meno alebo heslo</string>
+    <string name="location_settings_delete_offline_error">Zariadenie je offline</string>
+    <string name="location_settings_delete_io_error">Zariadeniu sa nepodarilo pripojiť k sieti</string>
+    <string name="activity_recognition_permission_label">rozpoznávanie aktivity</string>
+    <string name="activity_recognition_permission_description">Umožňuje aplikácii, aby od spoločnosti Google získavala pravidelné aktualizácie vašej aktivity – napríklad keď stojíte na mieste, niekam idete alebo idete autom či jazdíte na bicykli.</string>
+    <string name="games_client_settings_activity_title">Nastavenia</string>
+    <string name="games_client_settings_google_account_desc">Aktuálne ste prihlásený/-á ako:</string>
+    <string name="games_client_settings_google_account_signout_title">Odhlásiť sa</string>
+    <string name="games_client_settings_signout_alert_dialog_title">Potvrďte odhlásenie</string>
+    <string name="games_client_settings_signout_alert_dialog_msg">Chystáte sa odhlásiť z tejto hry ako %s</string>
+    <string name="games_client_settings_signout_progress_dialog_msg">Prebieha odhlasovanie...</string>
+    <string name="games_client_settings_sharing_title">Nastavenia zdieľania</string>
+    <string name="games_client_settings_sharing_description">Vyberte ľudí, s ktorými chcete zdieľať hernú aktivitu</string>
+    <string name="games_gcore_select_google_account">Účet Google</string>
+    <string name="games_gcore_select_google_account_summary">Pre Hry Google Play používate účet %1$s</string>
+    <string name="games_invitation_inbox_label">Pozvánky</string>
+    <string name="games_gcore_muted_games">Ignorované hry</string>
+    <string name="games_gcore_muted_games_empty">Zatiaľ žiadne hry neignorujete.</string>
+    <string name="games_gcore_notifications">Upozornenia</string>
+    <string name="games_gcore_notifications_summary">Povoliť hrám odosielanie žiadostí a upozornení</string>
+    <string name="games_gcore_notification_scope">Kto vám môže odosielať upozornenia</string>
+    <string name="games_change_account_dialog_title_different_account">Iný účet</string>
+    <string name="games_change_account_dialog_title_no_account">Žiadny účet</string>
+    <string name="games_change_account_dialog_message_different_account_format">"V súčasnosti ste do hry %1$s prihlásený/-á ako %2$s.
+
+Chcete prepnúť na účet %3$s?"</string>
+    <string name="games_change_account_dialog_message_no_account_format">"Do hry %1$s nie ste prihlásený/-á. 
+
+Chcete sa prihlásiť ako %3$s?"</string>
+    <string name="games_change_account_dialog_button_view_in_play_store">Zobraziť v Obchode Play</string>
+    <string name="games_settings_unmute_title">Zrušiť ignorovanie?</string>
+    <string name="games_settings_unmute_message">Povoliť hre %s odosielanie žiadostí a upozornení.</string>
+    <string name="games_settings_unmute_ok">Zrušiť ignorov.</string>
+    <string name="games_settings_title">Nastavenia</string>
+    <string name="games_leaderboards_empty">Pre túto hru neexistujú žiadne výsledkové tabuľky.</string>
+    <string name="games_leaderboards_network_error">Nedajú sa načítať výsledkové tabuľky tejto hry. Skontrolujte svoje pripojenie a skúste to znova.</string>
+    <string name="games_leaderboards_generic_error">Výsledkové tabuľky tejto hry sa nedajú načítať. Skúste to znova neskôr.</string>
+    <string name="games_leaderboard_list_title">Výsledkové tabuľky</string>
+    <string name="games_achievement_list_network_error">Nedajú sa načítať bonusy tejto hry. Skontrolujte svoje pripojenie a skúste to znova.</string>
+    <string name="games_achievement_list_generic_error">Bonusy pre túto hru sa nedajú načítať. Skúste to znova neskôr.</string>
+    <string name="games_select_players_title">Zápas pre viacero hráčov</string>
+    <string name="games_select_players_empty">Nenašli sa žiadni hráči.</string>
+    <string name="games_select_players_cancel">ZRUŠIŤ</string>
+    <string name="games_select_players_auto_pick_item_label">Automatický výber hráča</string>
+    <string name="games_select_players_auto_pick_chip_name">Autom. výber</string>
+    <string name="games_select_players_no_slots_remaining">Žiadne ďalšie voľné miesta</string>
+    <string name="games_select_players_no_invitable_players">"Nenašli sa žiadni hráči.
+
+Ak chcete, aby sa tu zobrazovali ľudia, pridajte ich do kruhov v službe Google+."</string>
+    <string name="games_waiting_room_room_status_inviting">Čakanie na hráčov</string>
+    <string name="games_waiting_room_room_status_auto_matching">Čakanie na aut. priradenie</string>
+    <string name="games_waiting_room_room_status_connecting">Pripájanie</string>
+    <string name="games_waiting_room_room_status_active">Pripojené</string>
+    <string name="games_waiting_room_menu_start_playing">Začať hrať</string>
+    <string name="games_waiting_room_menu_leave_room">Opustiť miestnosť</string>
+    <string name="games_waiting_room_prepare_to_play">Pripravte sa na hru</string>
+    <string name="games_waiting_room_participant_status_invited">Pozvaný/-á</string>
+    <string name="games_waiting_room_participant_status_player_joined">Pozvánka bola prijatá</string>
+    <string name="games_waiting_room_participant_status_automatch_joined">Pripojené</string>
+    <string name="games_waiting_room_participant_status_declined">Pozvánka bola odmietnutá</string>
+    <string name="games_waiting_room_participant_status_left">Opustil(-a) miestnosť</string>
+    <string name="games_notification_match_title">Nová pozvánka do hry</string>
+    <string name="games_notification_invitation_ticker">Nová pozvánka do hry od hráča %s</string>
+    <string name="games_notifications_new_player_butterbar_title">Kontrola nastavení upozornení hier</string>
+    <string name="games_common_header_see_more">VIAC INFORMÁCIÍ</string>
+    <string name="games_app_name">Hry Play</string>
+    <string name="games_sync_label">Údaje hier</string>
+    <string name="games_refresh">Obnoviť</string>
+    <string name="games_next_prev_page_retry">Skúsiť znovu</string>
+    <string name="games_app_unavailable">Hra %1$s nie je dostupná. Skúste to znova neskôr.</string>
+    <string name="games_player_self">JA</string>
+    <string name="games_signin_welcome_back">VITAJTE</string>
+    <string name="games_unknown_player_name">Používateľ služieb Google</string>
+    <string name="games_play">HRAŤ</string>
+    <string name="games_dest_player_circle_picker_add_title">Pridajte si ľudí do kruhov</string>
+    <string name="games_dest_player_circle_picker_update_title">Aktualizácia kruhov</string>
+    <string name="games_oob_sign_in_with_google">PRIHLÁSTE SA S ÚČTOM GOOGLE</string>
+    <string name="games_oob_welcome_proceed">Ďalej</string>
+    <string name="games_generic_empty_text">Žiadne výsledky.</string>
+    <string name="games_leaderboard_subtitle">Výsledková tabuľka</string>
+    <string name="games_leaderboard_timespan_menu_alltime">Neobmedzene</string>
+    <string name="games_leaderboard_timespan_menu_weekly">Tento týždeň</string>
+    <string name="games_leaderboard_timespan_menu_daily">Dnes</string>
+    <string name="games_leaderboard_menu_reset_top_scores">Zobraziť najvyššie skóre</string>
+    <string name="games_leaderboard_menu_reset_player_centered_scores">Zobraziť skóre hráča</string>
+    <string name="games_leaderboard_subtitle_alltime">Výsledková tabuľka</string>
+    <string name="games_leaderboard_subtitle_weekly">Výsl. tabuľka pre tento týžd.</string>
+    <string name="games_leaderboard_subtitle_daily">Dnešná výsledková tabuľka</string>
+    <string name="games_leaderboard_public_null_state">"Neuveriteľné! Pre túto hru nemáme žiadne verejné najvyššie skóre.
+
+Hrajte a staňte sa úplne prvým hráčom vo výsledkovej tabuľke."</string>
+    <string name="games_leaderboard_scores_network_error">Skóre pre túto výsledkovú tabuľku sa nedá načítať. Skontrolujte svoje pripojenie a skúste to znova.</string>
+    <string name="games_leaderboard_scores_generic_error">Skóre pre túto výsledkovú tabuľku sa nedá načítať. Skúste to znova neskôr.</string>
+    <string name="games_leaderboard_public_tab">VEREJNÉ</string>
+    <string name="games_leaderboard_social_tab">MOJE KRUHY</string>
+    <string name="games_leaderboard_public_header">Verejné</string>
+    <string name="games_leaderboard_social_header">Moje kruhy</string>
+    <string name="games_leaderboard_percentile_label">V NAJ</string>
+    <string name="games_leaderboard_player_count_large_number_format">vyše %1$s</string>
+    <string name="games_leaderboard_rank_header_ordinal">SOM %1$s</string>
+    <string name="games_leaderboard_rank_header_percentile">SOM V NAJ %1$s %%</string>
+    <string name="games_leaderboard_social_null_state_alltime_format">"Hru %s zatiaľ nehral nikto z vašich kruhov.
+
+Povedzte o tejto hre ostatným. Keď si ju zahrajú, budete si môcť porovnať skóre."</string>
+    <string name="games_leaderboard_social_null_state_weekly_format">"Hru %s tento týždeň nehral nikto z vašich kruhov.
+
+ Povedzte o tejto hre ostatným. Keď si ju zahrajú, budete si môcť porovnať skóre."</string>
+    <string name="games_leaderboard_social_null_state_daily_format">"Hru %s dnes nehral nikto z vašich kruhov.
+
+Povedzte o tejto hre ostatným. Keď si ju zahrajú, budete si môcť porovnať skóre."</string>
+    <string name="games_leaderboard_null_state_share_on_gplus">Zdieľať v službe Google+</string>
+    <string name="games_leaderboard_null_state_share_subject">Vyskúšajte hru %1$s</string>
+    <string name="games_leaderboard_null_state_share_body_format">"Hrám hru %1$s. Prekonáte moje najvyššie skóre?
+
+%2$s"</string>
+    <string name="games_leaderboard_null_state_find_people">Vyhľadať ľudí</string>
+    <string name="games_leaderboard_butterbar_offline_title">Žiadne pripojenie</string>
+    <string name="games_leaderboard_butterbar_offline_info">Nepodarilo sa pripojiť k serveru. Skúste to znova neskôr.</string>
+    <string name="games_leaderboard_butterbar_non_public_pacl_title">Moje hodnotenie nie je verejné</string>
+    <string name="games_leaderboard_butterbar_non_public_pacl_info">Ostatní hráči vaše skóre nevidia. Ak chcete, aby bolo verejné, zmeňte nastavenie hernej aktivity na Verejné.</string>
+    <string name="games_leaderboard_butterbar_pacl_wait_title">Prečo nevidím svoje skóre?</string>
+    <string name="games_leaderboard_butterbar_pacl_wait_info">Hodnotenia sa aktualizujú každých 24 hodín. Vráťte sa neskôr a zobrazte si svoje skóre.</string>
+    <string name="games_achievement_list_title">Bonusy</string>
+    <string name="games_achievement_empty">V tejto hre nie sú žiadne bonusy.</string>
+    <string name="games_achievement_list_header_unlocked_format">Odomknuté: %1$d/%2$d</string>
+    <string name="games_achievement_list_header_percentage_format">%1$d %%</string>
+    <string name="games_achievement_hidden_name">Tajné</string>
+    <string name="games_achievement_hidden_desc">Hrajte ďalej a dozviete sa viac.</string>
+    <string name="games_percentage_format">%1$d %%</string>
+    <string name="games_achievement_popup_label">BONUS ODOMKNUTÝ</string>
+    <string name="games_show_matches_just_now">Práve teraz</string>
+    <string name="games_menu_settings">Nastavenia</string>
+    <string name="games_menu_timespan">Zmeniť časové rozpätie</string>
+    <string name="games_menu_mute_app">Ignorovať aplikáciu</string>
+    <string name="games_progress_dialog_muting_app">Prebieha aktivácia ignorovania aplikácie…</string>
+    <string name="games_progress_dialog_unmuting_app">Prebieha rušenie ignorovania aplikácie…</string>
+    <string name="games_wide_tile_invitation_solo_description_format">vás pozýva hrať hru %1$s</string>
+    <string name="games_wide_tile_invitation_solo_time_format">ODOSLANÉ %1$s</string>
+    <string name="games_wide_tile_invitation_solo_num_players_format">PRE %1$d HRÁČOV</string>
+    <string name="games_wide_tile_invitation_play">Hrať</string>
+    <string name="games_wide_tile_invitation_game_info">Informácie o hre</string>
+    <string name="games_wide_tile_invitation_decline">Odmietnuť</string>
+    <string name="games_invitation_list_null_state">Nemáte žiadne pozvánky.</string>
+    <string name="games_resolution_failure_dialog_message">Zlyhanie pripojenia služby Hry Play sa nepodarilo vyriešiť.</string>
+    <string name="common_app_name">Služby Google Play</string>
+    <string name="common_choose_account_label">Zvoliť účet</string>
+    <string name="common_add_account_label">Pridať účet</string>
+    <string name="common_add_account_button_label">Pridať účet</string>
+    <string name="common_accessibility_audience_view_editable">Upraviť publikum</string>
+    <string name="common_chips_label_public">Verejná</string>
+    <string name="common_chips_label_your_circles">Vaše kruhy</string>
+    <string name="common_chips_label_extended_circles">Rozšírené kruhy</string>
+    <string name="common_chips_label_only_you">Iba vy</string>
+    <string name="common_chips_label_empty_circles">Žiadne kruhy</string>
+    <string name="common_google_settings">Nastavenia Google</string>
+    <string name="common_maps_settings_title">Mapy a Latitude</string>
+    <string name="common_location_settings_title">Poloha</string>
+    <string name="common_search_settings_title">Hľadať</string>
+    <string name="common_plus_settings_title">Google+</string>
+    <string name="common_ads_settings_title">Reklamy</string>
+    <string name="common_connected_apps_settings_title">Pripojené aplikácie</string>
+    <string name="common_games_settings_title">Hry Play</string>
+    <string name="common_security_settings_title">Overenie aplikácií</string>
+    <string name="common_storage_settings_title">Ukladací priestor Služieb Play</string>
+    <string name="common_no_network">Nie je k dispozícii, pretože zariadenie je offline</string>
+    <string name="common_network_load_failed">Nie je k dispozícii, pretože zariadenie sa nemôže pripojiť k sieti</string>
+    <string name="common_google_play_services_error_dialog_title">Chyba</string>
+    <string name="common_google_play_services_no_restricted_profiles">Táto aplikácia nepodporuje účty pre profily s obmedzením</string>
+    <string name="common_clear_app_data_menu_item">Vymazať údaje aplikácie</string>
+    <string name="common_list_apps_menu_help">Pomocník</string>
+    <string name="common_mdm_feature_name">Správca zariadenia Android</string>
+    <string name="auth_app_label">Správca účtov Google</string>
+    <string name="auth_gls_label">Google</string>
+    <string name="auth_default_device_name">Android</string>
+    <string name="auth_next_button_label">Ďalej</string>
+    <string name="auth_back_button_label">Späť</string>
+    <string name="auth_sign_in_button_label">Prihlásiť sa</string>
+    <string name="auth_skip_button_label">Preskočiť</string>
+    <string name="auth_cancel_button_label">Zrušiť</string>
+    <string name="auth_try_again_button_label">Skúsiť znova</string>
+    <string name="auth_captcha_title">Musíte zadať kód z obrázku CAPTCHA</string>
+    <string name="auth_show_error_title">Chyba</string>
+    <string name="auth_server_error">Pri komunikácii so servermi Google sa vyskytol problém.</string>
+    <string name="auth_server_error_help">Skúste to znova neskôr.</string>
+    <string name="auth_network_unreliable">Nie je možné nadviazať spoľahlivé pripojenie k serveru.</string>
+    <string name="auth_network_unreliable_help">Môže ísť o dočasný problém alebo pre vaše zariadenie so systémom Android nie sú aktivované dátové služby. Ak problém pretrváva, zavolajte podporu pre zákazníkov.</string>
+    <string name="auth_network_unreliable_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="auth_invalid_login_character">Neplatný znak. Povolené znaky sú 0 – 9, a – z, A – Z a bodky.</string>
+    <string name="auth_invalid_password_character">Heslo obsahuje neplatný znak.</string>
+    <string name="auth_field_cant_be_blank">Pole nesmie byť prázdne.</string>
+    <string name="auth_plus_name_check_text">Môže to trvať niekoľko minút.</string>
+    <string name="auth_communicating_message">Zariadenie kontaktuje spoločnosť Google kvôli uloženiu informácií do účtu. Môže to trvať až 5 minút.</string>
+    <string name="auth_plus_failure_title">Vytvorenie profilu Google+ neskôr</string>
+    <string name="auth_plus_failure_new_account_text">Účet Google bol vytvorený, ale vaša žiadosť o vytvorenie profilu Google+ sa neodoslala. Skúste to znova neskôr z ľubovoľného webového prehliadača na stránkach plus.google.com.</string>
+    <string name="auth_plus_failure_text">Vaša žiadosť o pripojenie ku Google+ neprešla. Skúste to znova neskôr z akéhokoľvek webového prehliadača na stránkach plus.google.com.</string>
+    <string name="auth_invalid_scope">Počas žiadosti o overenie totožnosti bol použitý neplatný rozsah.</string>
+    <string name="auth_login_title">Zadajte e-mail a heslo</string>
+    <string name="auth_login_task_title">Prebieha prihlasovanie</string>
+    <string name="auth_password">Heslo</string>
+    <string name="auth_sign_in_agreement">Prihlásením vyjadrujete súhlas s Pravidlami ochrany osobných údajov spoločnosti <annotation id="google_privacy">Google</annotation> a <annotation id="android_privacy">Ďalšími</annotation> pravidlami ochrany osobných údajov.</string>
+    <string name="auth_sign_in_agreement_multi_user">Prihlásením sa vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google a so <annotation id="play_tos">Zmluvnými podmienkami služby Google Play</annotation>". 
+
+Uvedomte si, že aktualizované povolenia aplikácií môže prijať vo vašom mene každý používateľ. Tento tablet by ste mali zdieľať (ako každý iný počítač) iba s ľuďmi, ktorým dôverujete."</string>
+    <string name="auth_sign_in_agreement_with_chrome">Prihlásením vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google, <annotation id="chrome_tos">Zmluvnými podmienkami</annotation> a <annotation id="chrome_privacy">Upozornením o ochrane osobných údajov</annotation> aplikácie Chrome a <annotation id="play_tos">Zmluvnými podmienkami</annotation> služby Google Play.</string>
+    <string name="auth_sign_in_agreement_with_chrome_multi_user">Prihlásením sa vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami</annotation> a s <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google, so <annotation id="chrome_tos">Zmluvnými podmienkami</annotation> a s <annotation id="chrome_privacy">Upozornením o ochrane osobných údajov</annotation> prehliadača Chrome a so <annotation id="play_tos">Zmluvnými podmienkami</annotation>" služby Google Play. 
+
+ Uvedomte si, že aktualizované povolenia aplikácií môže prijať vo vašom mene každý používateľ. Tento tablet by ste mali zdieľať (ako každý iný počítač) iba s ľuďmi, ktorým dôverujete."</string>
+    <string name="auth_sign_in_with_google_account_short">Prihláste sa pomocou účtu Google:</string>
+    <string name="auth_invalid_username">Zadaný text nie je platné používateľské meno.</string>
+    <string name="auth_captcha_instructions">Zadajte text, ktorý vidíte na tomto obrázku:</string>
+    <string name="auth_account_already_has_gmail">Účet už službu Gmail obsahuje.</string>
+    <string name="auth_error_account_disabled">"Tento účet bol zakázaný. 
+
+(Podrobnosti nájdete pomocou webového prehliadača na stránkach http://google.com/accounts.)"</string>
+    <string name="auth_no_network">Pripojenie k sieti nie je k dispozícii.</string>
+    <string name="auth_no_network_help">Môže to byť dočasný problém alebo vaše zariadenie so systémom Android nemá aktivované dátové služby. Po pripojení k mobilnej sieti alebo k sieti Wi-Fi to skúste znova.</string>
+    <string name="auth_no_network_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="auth_error_login_failed">"Vaše používateľské meno a heslo sa nezhodujú. Skúste to znova.
+
+Ak chcete obnoviť informácie o účte, prejdite na stránku google.com/accounts/recovery/."</string>
+    <string name="auth_error_account_not_verified">"Tento účet nebol verifikovaný. Skontrolujte svoj e-mail a kliknutím na uvedený odkaz tento účet verifikujte. 
+
+(Ak chcete obnoviť informácie o svojom účte, prejdite v počítači na adresu http://www.google.com/accounts/recovery.)"</string>
+    <string name="auth_exit_menu_item">Ukončiť prihlásenie v prehliadači</string>
+    <string name="auth_doesnt_use_gmail">" "<b>^1</b> službu Gmail nepoužíva.</string>
+    <string name="auth_error_not_logged_in">Používateľ nie je prihlásený.</string>
+    <string name="auth_error_username_unavailable">Používateľské meno nie je k dispozícii.</string>
+    <string name="auth_error_bad_password">Heslo je príliš slabé alebo obsahuje neplatné znaky. Skúste to znova.</string>
+    <string name="auth_error_bad_username">Neplatné používateľské meno.</string>
+    <string name="auth_existing_account_error_title">Účet už existuje</string>
+    <string name="auth_existing_account_error_text">Na tomto zariadení so systémom Android už účet ^1 existuje.</string>
+    <string name="auth_submission_title">Je nám ľúto...</string>
+    <string name="auth_submission_error_text">Vyskytla sa chyba. Skúste to znova.</string>
+    <string name="auth_ui_add_account_title">Nastavenie účtu</string>
+    <string name="auth_ui_activity_title">Prihlásenie Google</string>
+    <string name="auth_ui_activity_title_browser_signin">Prihlásenie v prehliadači</string>
+    <string name="auth_ui_activity_authenticating">Prebieha overovanie…</string>
+    <string name="auth_dmagent_activity_message">" Vaša doména vyžaduje správu mobilného zariadenia. Nainštalujte si aplikáciu Google Apps Device Policy, ktorá zaistí dodržiavanie pravidiel zabezpečenia vyžadovaných účtom  "<b>^1</b> .</string>
+    <string name="auth_sign_in_browser">Prihlásenie v prehliadači</string>
+    <string name="auth_login_activity_loginfail_text_pwonly">Zadali ste nesprávne heslo alebo bol váš účet zmenený. Zadajte heslo znova. Ak ste ho zabudli a potrebujete obnoviť svoj účet, kliknite <annotation id="help_url">tu</annotation>.</string>
+    <string name="auth_grant_credentials_activity_title">Google</string>
+    <string name="auth_grant_credentials_activity_title_with_acl">Prihlásiť sa do služby Google+</string>
+    <string name="auth_scope_details_dialog_title">Viac informácií</string>
+    <string name="auth_pacl_scope_details_dialog_title">Čo sa zobrazuje spoločnosti Google</string>
+    <string name="auth_facl_scope_details_dialog_title">Čo sa zobrazuje tejto aplikácii</string>
+    <string name="auth_app_permission_label">TÁTO APLIKÁCIA BY CHCELA</string>
+    <string name="auth_app_permission_title">Prihláste sa do %s s účtom Google</string>
+    <string name="auth_only_you_acl">Iba vy</string>
+    <string name="auth_allow_external_site_access">Mať neustály prístup k údajom na stránkach %s</string>
+    <string name="auth_accept_access">Prijať</string>
+    <string name="auth_unexpected_acl_error">Pri udeľovaní povolení sa vyskytol problém.</string>
+    <string name="auth_app_permission_footnote">Aplikácia %s a služba Google budú používať tieto informácie v súlade s príslušnými zmluvnými podmienkami a pravidlami ochrany osobných údajov.</string>
+    <string name="auth_visible_actions_title">Zdieľať s...</string>
+    <string name="auth_facl_with_warning_label">Zmeniť, koho môže táto aplikácia vidieť</string>
+    <string name="auth_scope_icon_desc">Ikona</string>
+    <string name="auth_scope_info_desc">Informácie</string>
+    <string name="auth_scope_acl_edit_desc">Upraviť</string>
+    <string name="auth_scope_warning_desc">Upozornenie</string>
+    <string name="auth_account_setup_title">Účet Google</string>
+    <string name="auth_login_activity_title">Prihlásiť sa</string>
+    <string name="auth_relogin_activity_title">Znova zadajte heslo</string>
+    <string name="auth_provisioned_welcome">Dobrý deň, %s!</string>
+    <string name="auth_provisioned_welcome_2">"Zadajte heslo používateľa: 
+ %s"</string>
+    <string name="auth_show_error_activity_title">Nepodarilo sa prihlásiť</string>
+    <string name="auth_login_activity_task_title">Prebieha prihlasovanie...</string>
+    <string name="auth_username">E-maily</string>
+    <string name="auth_error_invalid_second_factor">Namiesto bežného hesla účtu použite heslo pre konkrétnu aplikáciu.</string>
+    <string name="auth_error_needs_browser">Ak chcete pristupovať k svojmu účtu, musíte sa prihlásiť na webe. Dotknite sa tlačidla Ďalej a spustite prihlasovanie v prehliadači.</string>
+    <string name="auth_setup_wizard_title">Sprievodca nastavením</string>
+    <string name="auth_bad_name_title">Použiť toto meno?</string>
+    <string name="auth_learn_more_title">Viac informácií</string>
+    <string name="auth_name_title">Vaše meno</string>
+    <string name="auth_plus_faq_title">Vitajte v Google+!</string>
+    <string name="auth_plus_query_title">Vytvorenie profilu Google+</string>
+    <string name="app_level_title">Žiadosť o prihlásenie</string>
+    <string name="app_level_title_secondary">Žiadosť o prihlásenie od %s</string>
+    <string name="account_level_title">Vyžaduje sa akcia účtu</string>
+    <string name="notification_ticker">Požaduje sa prístup</string>
+    <string name="auth_recovery_loading">Načítava sa…</string>
+    <string name="auth_recovery_sending">Odosielanie...</string>
+    <string name="recovery_notification_ticker">Venujte účtu pozornosť</string>
+    <string name="recovery_notification_title">Pripomienka na obnovenie hesla</string>
+    <string name="recovery_title">Obnovenie hesla Google</string>
+    <string name="recovery_message_set">"Heslá sa ľahko zabúdajú.
+
+Zadajte telefónne číslo alebo záložnú e-mailovú adresu. V prípade potreby tak budete môcť ľahšie obnoviť prístup ku svojmu obsahu v službe Google alebo Google Play. "<annotation id="help_url">Viac informácií</annotation></string>
+    <string name="recovery_message_verify">"Heslá sa ľahko zabúdajú.
+
+Potvrďte telefónne číslo alebo záložnú e-mailovú adresu. V prípade potreby tak budete môcť ľahšie obnoviť prístup ku svojmu obsahu v službe Google alebo Google Play. "<annotation id="help_url">Viac informácií</annotation></string>
+    <string name="recovery_input_screen_message">Povedzte spoločnosti Google, ako vás má kontaktovať v prípade, že by ste zabudli heslo aplikácie %s.</string>
+    <string name="secondary_email_hint">Záložný e-mail</string>
+    <string name="secondary_email_invalid">Neplatná e-mailová adresa</string>
+    <string name="secondary_email_same_as_primary">Nemôže sa zhod. s prim. e-mailom</string>
+    <string name="phone_number_hint">Telefónne číslo</string>
+    <string name="phone_number_invalid_character">V telefónnom čísle sú neplatné znaky</string>
+    <string name="phone_number_invalid">Neplatné telefónne číslo</string>
+    <string name="country_invalid">Táto krajina nie je povolená</string>
+    <string name="recovery_done_button_label">Hotovo</string>
+    <string name="recovery_yes_button_label">Nastaviť možnosti obnovenia</string>
+    <string name="recovery_yes_button_label_verify">Potvrdiť možnosti obnovenia</string>
+    <string name="recovery_server_error">Chyba pri komunikácii so serverom. Skúste to znova o chvíľu.</string>
+    <string name="auth_gls_create_google_account">Zvoľte si používateľské meno</string>
+    <string name="auth_gls_create_google_account_text">Váš účet Google obsahuje službu Gmail, e-mailovú službu od spoločnosti Google. Funguje na akomkoľvek zariadení, blokuje spam a má mnoho iných funkcií.</string>
+    <string name="auth_gls_create_button_label">Získať účet</string>
+    <string name="auth_gls_not_now_button_label">Teraz nie</string>
+    <string name="auth_gls_new_button_label">Nový</string>
+    <string name="auth_gls_existing_button_label">Existujúci</string>
+    <string name="auth_gls_add_a_google_account">Pridať účet Google</string>
+    <string name="auth_gls_server_error">Pri komunikácii so servermi Google sa vyskytol problém.</string>
+    <string name="auth_gls_server_error_help">Skúste to znova neskôr.</string>
+    <string name="auth_gls_network_unreliable">Nie je možné nadviazať spoľahlivé pripojenie k serveru.</string>
+    <string name="auth_gls_network_unreliable_help">Môže ísť o dočasný problém alebo pre vaše zariadenie so systémom Android nie sú aktivované dátové služby. Ak problém pretrváva, zavolajte podporu pre zákazníkov.</string>
+    <string name="auth_gls_network_unreliable_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="auth_gls_cant_be_blank">Pole nesmie byť prázdne.</string>
+    <string name="auth_gls_plus_query_text">Vďaka službe Google+ je zdieľanie na webe podobné ako zdieľanie v reálnom živote.</string>
+    <string name="auth_gls_circles_subtitle">Kruhy</string>
+    <string name="auth_gls_circles_text">Najjednoduchší spôsob, ako zdieľať online to najdôležitejšie.</string>
+    <string name="auth_gls_uploads_subtitle">Okamžité odovzdanie</string>
+    <string name="auth_gls_uploads_text">Synchronizujte jednoducho všetky fotografie zo všetkých zariadení.</string>
+    <string name="auth_gls_huddle_text">Skupinové správy pre všetkých ľudí v kruhoch.</string>
+    <string name="auth_gls_plus_declined_button_label">Teraz nie</string>
+    <string name="auth_gls_plus_accepted_button_label">Pripojiť sa ku Google+</string>
+    <string name="auth_gls_plus_name_check_title">Prebieha kontaktovanie služby Google+...</string>
+    <string name="auth_gls_plus_name_check_text">Môže to trvať niekoľko minút.</string>
+    <string name="auth_gls_name_title_plus">Meno v službe Google+</string>
+    <string name="auth_gls_name_title_local">Tento telefón patrí používateľovi...</string>
+    <string name="auth_gls_name_text">Vaše meno slúži na prispôsobenie telefónu a služieb Google.</string>
+    <string name="auth_gls_name_text_local">Telefón používa vaše meno na prispôsobenie niektorých aplikácií.</string>
+    <string name="auth_gls_name_progress_title">Moment...</string>
+    <string name="auth_gls_photo_title">Vaša fotka</string>
+    <string name="auth_gls_photo_text">Táto fotografia sa použije vo vašom zázname kontaktu. Neskôr ju môžete zmeniť v aplikácii Ľudia.</string>
+    <string name="auth_gls_photo_text_es">Urobte si fotku, ktorú vaši priatelia uvidia v službe Google+. Nový obrázok si môžete vybrať neskôr.</string>
+    <string name="auth_gls_photo_button_label">Urobiť fotku</string>
+    <string name="auth_gls_retake_photo_button_label">Znova odfotiť</string>
+    <string name="auth_gls_photo_failure">Fotoaparát sa nepodarilo spustiť.</string>
+    <string name="auth_gls_crop_failure">Fotografiu sa nepodarilo orezať.</string>
+    <string name="auth_gls_photo_description">Vaša fotka</string>
+    <string name="auth_gls_creating_account_title">Prebieha ukladanie účtu...</string>
+    <string name="auth_gls_checking_username_message">"Váš telefón teraz kontaktuje spoločnosť Google, aby sme zistili, či je požadované používateľské meno k dispozícii.
+
+Môže to trvať niekoľko minút."</string>
+    <string name="auth_gls_plus_failure_title">Pripojte sa ku Google+ neskôr</string>
+    <string name="auth_gls_plus_failure_new_account_text">Účet Google bol vytvorený, ale vaša žiadosť o pripojenie k službe Google+ neprešla. Skúste to znova neskôr z ľubovoľného webového prehliadača na stránkach plus.google.com.</string>
+    <string name="auth_gls_plus_failure_text">Vaša žiadosť o pripojenie ku Google+ neprešla. Skúste to znova neskôr z akéhokoľvek webového prehliadača na stránkach plus.google.com.</string>
+    <string name="auth_gls_password_title">Vytvoriť heslo</string>
+    <string name="auth_gls_choose_a_password">Heslo</string>
+    <string name="auth_gls_confirm_password">Znova zadajte heslo</string>
+    <string name="auth_gls_too_short">Príliš krátke</string>
+    <string name="auth_gls_security_questions_title">Bezpečnostné otázky</string>
+    <string name="auth_gls_answer">" "<b>Odpoveď</b></string>
+    <string name="auth_gls_password_mismatch">Heslá sa nezhodujú. Skúste to znova.</string>
+    <string name="auth_gls_eight_chars_min">minimálne 8 znakov</string>
+    <string name="auth_gls_verify_your_profile">Overte svoj profil.</string>
+    <string name="auth_gls_error_bad_password">Heslo je príliš slabé alebo obsahuje neplatné znaky. Skúste to znova.</string>
+    <string name="auth_gls_existing_account_error_title">Účet už existuje</string>
+    <string name="auth_gls_existing_account_error_text">Na tomto zariadení so systémom Android už účet ^1 existuje.</string>
+    <string name="auth_gls_submission_title">Je nám to ľúto...</string>
+    <string name="auth_gls_account_tos_title">Dokončenie účtu</string>
+    <string name="auth_gls_account_tos_plus_title">Dokončiť pripojenie k službe Google+</string>
+    <string name="auth_gls_enable_web_history">Zapnúť webovú históriu</string>
+    <string name="auth_gls_learn_more"><annotation id="auth_gls_learn_more">Viac informácií</annotation></string>
+    <string name="auth_gls_account_creation_tos">Pokračovaním vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> spoločnosti Google aj <annotation id="play_tos">Zmluvnými podmienkami služby Google Play</annotation>.</string>
+    <string name="auth_gls_account_creation_tos_with_chrome">Pokračovaním vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> spoločnosti Google, <annotation id="chrome_tos">Zmluvnými podmienkami</annotation> a <annotation id="chrome_privacy">Upozornením o ochrane osobných údajov</annotation> v prehliadači Chrome a <annotation id="play_tos">Zmluvnými podmienkami</annotation> služby Google Play.</string>
+    <string name="auth_gls_account_pre_intro_title">Máte účet Google?</string>
+    <string name="auth_gls_account_pre_intro_default_message">"Máte účet Google?
+
+Ak používate službu Gmail alebo Google Apps, odpovedzte Áno."</string>
+    <string name="auth_gls_account_pre_intro_yes">Áno</string>
+    <string name="auth_gls_account_pre_intro_no">Nie</string>
+    <string name="auth_gls_account_intro_required_title">Používa technológiu Google</string>
+    <string name="auth_gls_account_intro_recommended_title">Prepojiť so službou Google</string>
+    <string name="auth_gls_account_intro_default_message">Svoje veci už nikdy nestratíte. Účet Google udržuje všetko v bezpečí.</string>
+    <string name="auth_gls_account_intro_simple_message">Chcete pridať existujúci účet alebo vytvoriť nový?</string>
+    <string name="auth_gls_account_intro_learn_more">Viac informácií</string>
+    <string name="auth_gls_wait_for_device_country_title">Nastavenie účtu</string>
+    <string name="auth_gls_wait_for_device_country_msg">Zhromažď. sa informácie o telefóne. Môže to trvať až 30 sek.</string>
+    <string name="auth_gls_recovery_title">Informácie na obnovenie</string>
+    <string name="auth_gls_account_recovery_info">Ak stratíte heslo, môžete odpovedať na bezpečnostnú otázku a odkaz na obnovenie hesla bude odoslaný na inú adresu.</string>
+    <string name="auth_gls_secondary_email_label">E-mailová adresa na obnovenie účtu</string>
+    <string name="auth_gls_invalid_email">"Zadaná e-mailová adresa nie je platná.
+ Platná adresa je napríklad peter@example.com."</string>
+    <string name="auth_gls_invalid_email_primary">Sekundárna adresa nesmie byť rovnaká ako adresa, ktorú práve vytvárate.</string>
+    <string name="auth_gls_backup_consent_message">"Účet Google môžete použiť na zálohovanie aplikácií, nastavení (napríklad záložiek a hesiel sietí Wi-Fi) a ďalších údajov. Ak ste už svoj účet zálohovali, môžete ho teraz v tomto telefóne obnoviť.
+
+Nastavenia zálohovania môžete kedykoľvek zmeniť v časti Nastavenia."</string>
+    <string name="auth_gls_backup_consent_message_no_restore">"Svoj účet Google môžete použiť na zálohovanie aplikácií, nastavení (napríklad záložiek a hesiel sietí Wi-Fi) a ďalších údajov.
+
+Nastavenia zálohovania môžete kedykoľvek zmeniť v časti Nastavenia."</string>
+    <string name="auth_gls_backup_consent_yes_agree">Zálohovať údaje z tohto telefónu pomocou môjho účtu Google</string>
+    <string name="auth_gls_restore_consent_yes_agree">Obnoviť údaje z môjho účtu Google v tomto telefóne</string>
+    <string name="auth_gls_restoring_title">Prebieha obnovenie...</string>
+    <string name="auth_gls_restoring_message">Telefón kontaktuje spoločnosť Google s cieľom obnovenia účtu. Môže to chvíľu trvať.</string>
+    <string name="auth_gls_ui_activity_title_checking_in">Prebieha príprava...</string>
+    <string name="auth_gls_ui_activity_authenticating">Prebieha overovanie…</string>
+    <string name="auth_gls_learn_more_account_intro">" Účet Google vám umožňuje:
+
+"<li><ul>odkiaľkoľvek si zobraziť a usporiadať všetky svoje informácie,</ul></li>"
+
+"<li><ul>automaticky zálohovať údaje, ako sú e-maily, kontakty, hudba a obrázky,</ul></li>" 
+
+"<li><ul>odkiaľkoľvek ľahko využívať služby Google vrátane služieb Kontakty, Kalendár, Mapy a ďalších.</ul></li></string>
+    <string name="auth_gls_learn_more_account_intro_title">O účtoch Google</string>
+    <string name="auth_gls_account_intro_title">Účet Google</string>
+    <string name="auth_gls_learn_more_web_history">"Webová história upravuje výsledky vyhľadávania na základe hľadaných výrazov a navštívených stránok. Poskytuje vám tak prispôsobenie pri práci so službami Google.
+
+Ak si chcete zobraziť a spravovať webovú históriu, vrátane jej zapnutia a vypnutia, prejdite na adresu www.google.com/history."</string>
+    <string name="auth_gls_learn_more_web_history_title">O webovej histórii</string>
+    <string name="auth_gls_dmagent_activity_activate_message">" Vaša doména vyžaduje správu mobilného zariadenia. Aktivujte aplikáciu Google Apps Device Policy, ktorá zaistí dodržiavanie pravidiel zabezpečenia vyžadovaných účtom  "<b>^1</b> .</string>
+    <string name="auth_gls_dmagent_activity_activate_retry_button">Aktivovať</string>
+    <string name="auth_gls_dmagent_activity_download_message">" Vaša doména vyžaduje správu mobilného zariadenia. Nainštalujte aplikáciu Google Apps Device Policy, ktorá zaistí dodržiavanie pravidiel zabezpečenia vyžadovaných účtom  "<b>^1</b> .</string>
+    <string name="auth_gls_dmagent_activity_download_retry_button">Prevziať</string>
+    <string name="auth_gls_sync_intro_activity_title_first_account">Zálohovanie a obnovenie</string>
+    <string name="auth_gls_sync_intro_activity_title_first_created_account">Záloha</string>
+    <string name="auth_gls_sync_intro_activity_title">Prihlásenie do účtu bolo úspešné</string>
+    <string name="auth_gls_error_needs_browser">Ak chcete pristupovať k svojmu účtu, musíte sa prihlásiť na webe. Dotknite sa tlačidla Ďalej a spustite prihlasovanie v prehliadači.</string>
+    <string name="auth_gls_google_play_opt_in">Informujte ma o novinkách a ponukách služby Google Play.</string>
+    <string name="auth_gls_plus_faq_text" formatted="false">"V službe Google+ budete mať verejný profil, ktorý pomôže vašim priateľom vyhľadať vás online. Váš profil môže nájsť a zobraziť ktokoľvek, kto pozná vašu e-mailovú adresu.
+
+Pomocou tlačidiel +1 nachádzajúcich sa na webe môžete odporúčať veci, ktoré vás zaujali. Profil a odporúčania +1 sa budú zobrazovať verejne vo vyhľadávaní, v reklamách a na webe.
+
+Vo vašom profile sa zatiaľ zobrazuje len vaše meno (%s %s). Keď začnete používať službu Google+, môžete pridať fotku, osobné informácie a ďalšie údaje."</string>
+    <string name="auth_gls_dasher_warning">Správca domény %s vlastní a spravuje všetky vaše údaje v službe Google+ a môže kedykoľvek odstrániť alebo upraviť váš profil bez vášho súhlasu.</string>
+    <string name="auth_gls_provisioned_welcome">Dobrý deň, %s!</string>
+    <string name="auth_gls_provisioned_welcome_2">"Zadajte heslo používateľa: 
+ %s"</string>
+    <string name="auth_gls_provisioned_incorrect_login">Nie ste %s?</string>
+    <string name="auth_gls_sign_in_agreement">Prihlásením vyjadrujete súhlas so <annotation id="tos">Zmluvnými podmienkami Google</annotation>, <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> a <annotation id="play_tos">Zmluvnými podmienkami služby Google Play</annotation>.</string>
+    <string name="auth_gls_sign_in_agreement_multi_user">" Prihlásením sa vyjadrujete súhlas so "<annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google a so <annotation id="play_tos">Zmluvnými podmienkami služby Google Play</annotation>". 
+
+Nezabúdajte, že aktualizované povolenia aplikácií môže prijať vo vašom mene každý používateľ. Tento tablet by ste mali zdieľať (ako každý iný počítač) iba s ľuďmi, ktorým dôverujete."</string>
+    <string name="auth_gls_sign_in_agreement_with_chrome">" Prihlásením vyjadrujete súhlas so "<annotation id="tos">Zmluvnými podmienkami</annotation> a <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google, <annotation id="chrome_tos">Zmluvnými podmienkami</annotation> a <annotation id="chrome_privacy">Upozornením o ochrane osobných údajov</annotation> aplikácie Chrome a <annotation id="play_tos">Zmluvnými podmienkami</annotation> služby Google Play.</string>
+    <string name="auth_gls_sign_in_agreement_with_chrome_multi_user">" Prihlásením sa vyjadrujete súhlas so "<annotation id="tos">Zmluvnými podmienkami</annotation> a s <annotation id="google_privacy">Pravidlami ochrany osobných údajov</annotation> Google, so <annotation id="chrome_tos">Zmluvnými podmienkami</annotation> a s <annotation id="chrome_privacy">Upozornením o ochrane osobných údajov</annotation> prehliadača Chrome a so <annotation id="play_tos">Zmluvnými podmienkami</annotation>" služby Google Play. 
+
+Pamätajte na to, že aktualizované povolenia aplikácií môže prijať vo vašom mene každý používateľ. Tento tablet by ste mali zdieľať (ako každý iný počítač) iba s ľuďmi, ktorým dôverujete."</string>
+    <string name="auth_gls_no_network">pripojenie k sieti nie je k dispozícii.</string>
+    <string name="auth_gls_no_network_help">Môže to byť dočasný problém alebo vaše zariadenie so systémom Android nemá aktivované dátové služby. Po pripojení k mobilnej sieti alebo k sieti Wi-Fi to skúste znova.</string>
+    <string name="auth_gls_no_network_help_wifi_only">Môže ísť o dočasný problém. Skúste to znova alebo sa pripojte k inej sieti Wi-Fi.</string>
+    <string name="auth_gls_error_login_failed">"Vaše používateľské meno a heslo si nezodpovedajú. Skúste to znova.
+
+Ak chcete obnoviť informácie o účte, prejdite na stránku google.com/accounts/recovery/."</string>
+    <string name="auth_gls_creating_profile">Vytvára sa profil…</string>
+    <string name="auth_gls_checking_account">Kontroluje sa dostupnosť...</string>
+    <string name="auth_gls_is_not_available">Používateľské meno <b>^1</b> nie je k dispozícii.</string>
+    <string name="auth_gls_suggestions_hint">Dotykom zobrazíte návrhy</string>
+    <string name="auth_gls_suggest_username_next_button_label">Zmeniť používateľské meno</string>
+    <string name="auth_gls_hint_size">" "<b>^1</b> obsahuje menej než 6 alebo viac než 30 znakov.</string>
+    <string name="auth_gls_hint_numbers_only">" "<b>^1</b> neobsahuje žiadne písmená.</string>
+    <string name="auth_gls_hint_illegal_chars">" "<b>^1</b>" môže obsahovať iba písmená,
+číslice a bodky."</string>
+    <string name="auth_gls_alternatives_list_title">Navrhované používateľské mená</string>
+    <string name="auth_gls_sync_item_title">Synchronizácia %s</string>
+    <string name="auth_gls_edit_text_help">Ak chcete začať písať, dotknite sa ľubovoľného textového poľa.</string>
+    <string name="auth_gls_sync_intro_title">Synchronizácia účtu</string>
+    <string name="auth_google_settings_header_title">Ochrana osobných údajov</string>
+    <string name="auth_maps_settings_title">Mapy a Latitude</string>
+    <string name="auth_location_settings_title">Nastavenia polohy</string>
+    <string name="auth_search_settings_title">Vyhľadávanie</string>
+    <string name="auth_plus_settings_title">Google+</string>
+    <string name="auth_ads_settings_title">Reklamy</string>
+    <string name="auth_location_network_based">Služba určovania polohy Google</string>
+    <string name="auth_location_neighborhood_level">Povolí posielanie anonymných údajov polohy službe Google a umožní aplikáciám určiť približnú polohu podľa mobilnej siete a Wi-Fi.</string>
+    <string name="auth_use_location_title">Poloha a vyhľadávanie Google</string>
+    <string name="auth_use_location_summary">Povoliť systému Google použiť polohu na vylepšenie výsledkov vyhľadávania a ďalších služieb</string>
+    <string name="appstate_sync_label">Údaje aplikácie</string>
+    <string name="appstate_clear_app_data_dialog_title">Vymazať údaje aplikácie?</string>
+    <string name="appstate_clear_app_data_dialog_description_multi_account">Chystáte sa odstrániť všetky údaje aplikácie tretej strany uložené pomocou tohto účtu Google. Tieto údaje už nebudú k dispozícii na žiadnom z vašich zariadení.</string>
+    <string name="appstate_clear_app_data_dialog_description_single_account">Chystáte sa odstrániť všetky údaje aplikácie tretej strany uložené pomocou účtu Google %1$s. Tieto údaje už nebudú naďalej k dispozícii na žiadnom z vašich zariadení.</string>
+    <string name="appstate_deleting_app_data">Odstraňujú sa údaje aplikácie...</string>
+    <string name="appstate_could_not_delete_data">Údaje sa nepodarilo odstrániť.</string>
+    <string name="googleads">Reklamy Google</string>
+    <string name="admob_ads_checkbox">Povoliť prispôsob. reklamy Google v službe Apps</string>
+    <string name="admob_ads_description">"Vyberte si, či sa budú reklamy Google založené na záujmoch zobrazovať v aplikáciách, ktoré nie sú od spoločnosti Google. Reklamy sa budú zobrazovať, aj keď ich deaktivujete. Nebudú však súvisieť s faktormi ako vaše záujmy, vek alebo pohlavie.
+&lt;a href=%1$s>Viac informácií&lt;/a>"</string>
+    <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v telefóne nemáte.</string>
+    <string name="common_google_play_services_install_text_tablet">Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v tablete nemáte.</string>
+    <string name="common_google_play_services_install_button">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_enable_text">Táto aplikácia bude fungovať až po povolení služieb Google Play.</string>
+    <string name="common_google_play_services_enable_button">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_update_title">Aktualizovať služby Google Play</string>
+    <string name="common_google_play_services_update_text">Túto aplikáciu bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Chyba siete</string>
+    <string name="common_google_play_services_network_error_text">Pripojenie k službám Google Play si vyžaduje dátové pripojenie.</string>
+    <string name="common_google_play_services_invalid_account_title">Neplatný účet</string>
+    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet.</string>
+    <string name="common_google_play_services_unknown_issue">Neznámy problém so službami Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Služby Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Niektoré vaše aplikácie vyžadujú služby Google Play, ktoré vo vašom zariadení nie sú podporované. Ak potrebujete pomoc, kontaktujte výrobcu.</string>
+    <string name="common_google_play_services_update_button">Aktualizovať</string>
+    <string name="common_signin_button_text">Prihlásiť sa</string>
+    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string name="auth_client_using_bad_version_title">Aplikácia sa pokúsila použiť nesprávnu verziu služieb Google Play.</string>
+    <string name="auth_client_needs_enabling_title">Aplikácia vyžaduje povolenie služieb Google Play.</string>
+    <string name="auth_client_needs_installation_title">Aplikácia vyžaduje inštaláciu služieb Google Play.</string>
+    <string name="auth_client_needs_update_title">Aplikácia vyžaduje aktualizáciu služieb Google Play.</string>
+    <string name="auth_client_play_services_err_notification_msg">Chyba služieb Google Play</string>
+    <string name="auth_client_requested_by_msg">Vyžiadané aplikáciou %1$s</string>
+</resources>

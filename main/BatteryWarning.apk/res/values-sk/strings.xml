@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string name="title_charger_over_voltage">Prepätie na nabíjačke</string>
+    <string name="title_battery_over_temperature">Vysoká teplota batérie</string>
+    <string name="title_over_current_protection">Ochrana proti prepätiu</string>
+    <string name="title_battery_over_voltage">Prepätie batérie</string>
+    <string name="title_safety_timer_timeout">Čas prebíjania</string>
+    <string name="msg_charger_over_voltage">Na nabíjačke je prepätie, odpojte nabíjačku!</string>
+    <string name="msg_battery_over_temperature">Batéria má vysokú teplotu, vyberte batériu!</string>
+    <string name="msg_over_current_protection">Batéria má ochranu proti prepätiu, vyberte batériu!</string>
+    <string name="msg_battery_over_voltage">Na batérii je prepätie, vyberte batériu!</string>
+    <string name="msg_safety_timer_timeout">Príliš dlhý čas nabíjania, odpojte nabíjačku!</string>
+    <string name="btn_ok_msg">Pripomenúť znovu</string>
+    <string name="btn_cancel_msg">Zrušiť</string>
+</resources>

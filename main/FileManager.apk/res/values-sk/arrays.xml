@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="sort_by">
+        <item>Typ</item>
+        <item>Názov (A - Z)</item>
+        <item>Veľkosť (velká - malá)</item>
+        <item>Čas (nový - starý)</item>
+    </string-array>
+</resources>

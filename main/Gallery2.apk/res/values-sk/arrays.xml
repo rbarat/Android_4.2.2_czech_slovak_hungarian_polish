@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="proxy_error">
+        <item>Pole hostiteľa nemôže byť prázdne</item>
+        <item>Pole portu nemôže byť prázdne</item>
+        <item>Neplatný hostiteľ</item>
+        <item>Neplatný port</item>
+    </string-array>
+</resources>

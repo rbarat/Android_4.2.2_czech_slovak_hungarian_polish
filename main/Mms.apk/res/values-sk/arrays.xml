@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Šťastím bez seba</item>
+        <item>Ach jaj</item>
+        <item>Žmurknutie</item>
+        <item>Vyplazený jazyk</item>
+        <item>Prekvapenie</item>
+        <item>Bozk</item>
+        <item>Hnevám sa!</item>
+        <item>Cool</item>
+        <item>Cinkanie mincí</item>
+        <item>Trapas!</item>
+        <item>Rozpaky</item>
+        <item>Anjelik</item>
+        <item>Ešte neviem</item>
+        <item>Buuu, fňuk, fňuk</item>
+        <item>Ani muk</item>
+        <item>Smiech</item>
+        <item>Zmätok</item>
+        <item>Srdce</item>
+        <item>Zlosť</item>
+        <item>grimasa</item>
+        <item>Kamenná tvár</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>bez predmetu</item>
+    </string-array>
+    <string-array name="default_quick_texts">
+        <item>Kde sa nachádzate?</item>
+        <item>Čo robíte?</item>
+        <item>Zavolajte naspäť! Prosím!</item>
+        <item>Ospravedlňujem sa, som na schôdzi.</item>
+        <item>Čoskoro vám zavolaám.</item>
+        <item>Nerobte si starosti! Som v poriadku.</item>
+        <item>Na ceste domov.</item>
+        <item>Prídem skoro.</item>
+        <item>Buď tam alebo si ma nepraj!</item>
+    </string-array>
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>Obmedzený režim</item>
+        <item>Varovný režim</item>
+        <item>Voľný režim</item>
+    </string-array>
+    <string-array name="pref_mms_size_limit_choices">
+        <item>100K</item>
+        <item>200K</item>
+        <item>300K</item>
+    </string-array>
+    <string-array name="pref_mms_size_limit_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_choices">
+        <item>Vysoká</item>
+        <item>Normálna</item>
+        <item>Nízka</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_choice">
+        <item>Abeceda GSM</item>
+        <item>Unicode</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>Telefón</item>
+        <item>Karta SIM</item>
+    </string-array>
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>Zariadenie</item>
+        <item>Karta SIM</item>
+    </string-array>
+    <string-array name="pref_message_font_size_choices">
+        <item>Použiť systémovú veľkosť písma</item>
+        <item>Malý</item>
+        <item>Stredný</item>
+        <item>Veľký</item>
+        <item>Veľmi veľký</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy</item>
+        <item>4 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>6 sekúnd</item>
+        <item>7 sekúnd</item>
+        <item>8 sekúnd</item>
+        <item>9 sekúnd</item>
+        <item>10 sekúnd</item>
+        <item>Iné</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Vždy</item>
+        <item>Iba v tichom režime</item>
+        <item>Nikdy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dzień</item>
+    </plurals>
+    <plurals name="games_select_players_current_count_format">
+        <item quantity="other">%1$d graczy</item>
+        <item quantity="one">Gracze</item>
+    </plurals>
+    <plurals name="games_select_players_slots_remaining_format">
+        <item quantity="other">Zaproś do %1$d innych graczy</item>
+        <item quantity="one">Zaproś do %1$d innych graczy</item>
+    </plurals>
+    <plurals name="games_notification_new_match_activity">
+        <item quantity="other">Nowe zaproszenia do gry: %1$d</item>
+        <item quantity="one">%1$d nowe zaproszenie do gry</item>
+    </plurals>
+    <plurals name="games_notification_new_player_text">
+        <item quantity="other">Wyświetl zaproszenia</item>
+        <item quantity="one">Wyświetl zaproszenie</item>
+    </plurals>
+    <plurals name="games_leaderboard_player_count_format">
+        <item quantity="other">%1$s graczy</item>
+        <item quantity="one">%1$s gracz</item>
+    </plurals>
+</resources>

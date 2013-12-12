@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="plus_gender_array">
+        <item>Muž</item>
+        <item>Žena</item>
+        <item>Iné</item>
+    </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>slabé</item>
+        <item>dostatočné</item>
+        <item>dobré</item>
+        <item>silné</item>
+    </string-array>
+    <string-array name="auth_gls_security_questions">
+        <item>Zvoľte si bezpečnostnú otázku</item>
+        <item>Prvé telefónne číslo?</item>
+        <item>Meno najlepšieho kamaráta z detstva?</item>
+        <item>Meno prvého učiteľa?</item>
+        <item>Meno šéfa v prvom zamestnaní?</item>
+        <item>Evidenčné číslo vozidla?</item>
+    </string-array>
+</resources>

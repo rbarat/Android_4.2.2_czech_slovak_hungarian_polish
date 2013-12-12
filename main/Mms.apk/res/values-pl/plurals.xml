@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="read_report_toast_msg">
+        <item quantity="other">wysyłanie %d raportów odczytu</item>
+        <item quantity="one">wysyłanie %d raportu odczytu</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d zaznaczone</item>
+        <item quantity="one">%d zaznaczony</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s wyników dla \"%2$s\"</item>
+        <item quantity="one">%1$s wynik dla \"%2$s\"</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s sekund</item>
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekund</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$s kowersacji zostanie usuniętych</item>
+        <item quantity="one">Jedna kowersacja zostanie usunięta</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="other">%d nieprzeczytanych wiadomości.</item>
+        <item quantity="one">%d nieprzeczytana wiadomość.</item>
+    </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">+%1$s innych wiadomości</item>
+        <item quantity="one">+%1$s inna wiadomość</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s osób</item>
+    </plurals>
+</resources>
